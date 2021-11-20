@@ -1,505 +1,505 @@
-,Country,product,Quantity Description,Year,qty_thousands,price_per_thousands,country_category
-0,Austria,textile bag,number,2015,0.00242,5740.0,EU
-1,Austria,paper bag,kilograms,2015,24.69968503937008,207.645,EU
-2,Austria,plastic bag,thousand units,2015,3.08,35.14,EU
-3,Belgium,textile bag,number,2015,0.00085,7940.0,EU
-4,Belgium,paper bag,kilograms,2015,21.446771653543305,455.295,EU
-5,Belgium,plastic bag,thousand units,2015,35.74,97.91,EU
-6,Bulgaria,textile bag,number,2015,0.0,,EU
-7,Bulgaria,paper bag,kilograms,2015,0.02236220472440945,2585.72,EU
-8,Bulgaria,plastic bag,thousand units,2015,0.61,59.69,EU
-9,China,textile bag,number,2015,257.47685,2650.0,China
-10,China,paper bag,kilograms,2015,2892.685196850394,228.6,China
-11,China,plastic bag,thousand units,2015,76598.59,10.47,China
-12,Croatia,textile bag,number,2015,0.0,,EU
-13,Croatia,paper bag,kilograms,2015,0.0,,EU
-14,Croatia,plastic bag,thousand units,2015,4.71,5.12,EU
-15,Cyprus,paper bag,kilograms,2015,0.014488188976377953,333.375,EU
-16,Cyprus,plastic bag,thousand units,2015,0.0,,EU
-17,Czech Republic,textile bag,number,2015,0.01331,1160.0,EU
-18,Czech Republic,paper bag,kilograms,2015,4.029448818897638,215.26500000000001,EU
-19,Czech Republic,plastic bag,thousand units,2015,37.03,0.77,EU
-20,Denmark,textile bag,number,2015,0.00107,15120.0,EU
-21,Denmark,paper bag,kilograms,2015,1.1248818897637796,580.39,EU
-22,Denmark,plastic bag,thousand units,2015,20.29,14.53,EU
-23,Estonia,textile bag,number,2015,0.00696,190340.0,EU
-24,Estonia,paper bag,kilograms,2015,0.25338582677165356,125.095,EU
-25,Estonia,plastic bag,thousand units,2015,0.0,,EU
-26,Finland,textile bag,number,2015,0.00876,6850.0,EU
-27,Finland,paper bag,kilograms,2015,48.423464566929134,128.27,EU
-28,Finland,plastic bag,thousand units,2015,0.38,103.12,EU
-29,France,textile bag,number,2015,0.6958799999999999,5420.0,EU
-30,France,paper bag,kilograms,2015,132.58015748031497,247.65,EU
-31,France,plastic bag,thousand units,2015,95.1,58.5,EU
-32,Germany,textile bag,number,2015,0.24147,5190.0,EU
-33,Germany,paper bag,kilograms,2015,1814.7787401574803,177.79999999999998,EU
-34,Germany,plastic bag,thousand units,2015,3318.51,9.75,EU
-35,Greece,textile bag,number,2015,0.00037,15940.0,EU
-36,Greece,paper bag,kilograms,2015,0.10960629921259843,379.09499999999997,EU
-37,Greece,plastic bag,thousand units,2015,5.78,157.16,EU
-38,Hungary,textile bag,number,2015,8.999999999999999e-05,36800.0,EU
-39,Hungary,paper bag,kilograms,2015,0.5313385826771654,354.33,EU
-40,Hungary,plastic bag,thousand units,2015,5.0,1.29,EU
-41,India,textile bag,number,2015,2.7253600000000002,1670.0,India
-42,India,paper bag,kilograms,2015,116.22047244094489,138.43,India
-43,India,plastic bag,thousand units,2015,5411.3,9.07,India
-44,Ireland,textile bag,number,2015,0.00023999999999999998,35960.0,EU
-45,Ireland,paper bag,kilograms,2015,0.11291338582677166,1786.89,EU
-46,Ireland,plastic bag,thousand units,2015,4.5,81.78,EU
-47,Italy,textile bag,number,2015,0.10887999999999999,16990.0,EU
-48,Italy,paper bag,kilograms,2015,286.70771653543306,141.605,EU
-49,Italy,plastic bag,thousand units,2015,111.94,10.72,EU
-50,Latvia,textile bag,number,2015,0.0,,EU
-51,Latvia,paper bag,kilograms,2015,0.0006299212598425197,5680.71,EU
-52,Latvia,plastic bag,thousand units,2015,0.0,550.0,EU
-53,Lithuania,textile bag,number,2015,7.000000000000001e-05,23820.0,EU
-54,Lithuania,paper bag,kilograms,2015,0.04850393700787402,338.455,EU
-55,Lithuania,plastic bag,thousand units,2015,0.0,94.33,EU
-56,Luxembourg,textile bag,number,2015,2e-05,36300.0,EU
-57,Luxembourg,paper bag,kilograms,2015,0.5562204724409449,144.78,EU
-58,Luxembourg,plastic bag,thousand units,2015,0.0,,EU
-59,Malta,paper bag,kilograms,2015,0.0,,EU
-60,Netherlands,textile bag,number,2015,0.00992,5840.0,EU
-61,Netherlands,paper bag,kilograms,2015,61.08362204724409,209.54999999999998,EU
-62,Netherlands,plastic bag,thousand units,2015,126.67,23.43,EU
-63,Poland,textile bag,number,2015,0.02252,9010.0,EU
-64,Poland,paper bag,kilograms,2015,29.814015748031498,323.215,EU
-65,Poland,plastic bag,thousand units,2015,35.98,22.98,EU
-66,Portugal,textile bag,number,2015,0.01039,16110.0,EU
-67,Portugal,paper bag,kilograms,2015,2.651968503937008,276.86,EU
-68,Portugal,plastic bag,thousand units,2015,0.05,531.04,EU
-69,Romania,textile bag,number,2015,0.00447,48990.0,EU
-70,Romania,paper bag,kilograms,2015,0.12913385826771653,104.14,EU
-71,Romania,plastic bag,thousand units,2015,0.68,14.32,EU
-72,Slovakia,textile bag,number,2015,0.00016,269940.0,EU
-73,Slovakia,paper bag,kilograms,2015,0.002047244094488189,995.045,EU
-74,Slovakia,plastic bag,thousand units,2015,35.05,3.36,EU
-75,Slovenia,textile bag,number,2015,2e-05,16129.999999999998,EU
-76,Slovenia,paper bag,kilograms,2015,0.22503937007874014,254.0,EU
-77,Slovenia,plastic bag,thousand units,2015,0.02,112.25,EU
-78,Spain,textile bag,number,2015,0.034159999999999996,7610.0,EU
-79,Spain,paper bag,kilograms,2015,119.58299212598426,201.295,EU
-80,Spain,plastic bag,thousand units,2015,200.48,30.69,EU
-81,Sweden,textile bag,number,2015,0.0052,20680.0,EU
-82,Sweden,paper bag,kilograms,2015,27.453700787401573,215.26500000000001,EU
-83,Sweden,plastic bag,thousand units,2015,23.35,28.28,EU
-84,Austria,textile bag,number,2016,0.026629999999999997,12770.0,EU
-85,Austria,paper bag,kilograms,2016,52.91653543307086,142.24,EU
-86,Austria,plastic bag,thousand units,2016,1.36,66.0,EU
-87,Belgium,textile bag,number,2016,0.00632,4530.0,EU
-88,Belgium,paper bag,kilograms,2016,18.226299212598423,540.385,EU
-89,Belgium,plastic bag,thousand units,2016,31.41,117.74,EU
-90,Bulgaria,textile bag,number,2016,0.00101,5410.0,EU
-91,Bulgaria,paper bag,kilograms,2016,0.09653543307086614,1261.11,EU
-92,Bulgaria,plastic bag,thousand units,2016,0.13,106.85,EU
-93,China,textile bag,number,2016,244.09393,2680.0,China
-94,China,paper bag,kilograms,2016,3181.065039370079,208.915,China
-95,China,plastic bag,thousand units,2016,81070.52,9.62,China
-96,Croatia,textile bag,number,2016,0.0,,EU
-97,Croatia,paper bag,kilograms,2016,0.0,,EU
-98,Croatia,plastic bag,thousand units,2016,6.96,5.17,EU
-99,Cyprus,paper bag,kilograms,2016,0.35401574803149605,348.615,EU
-100,Cyprus,plastic bag,thousand units,2016,0.0,,EU
-101,Czech Republic,textile bag,number,2016,0.001,4300.0,EU
-102,Czech Republic,paper bag,kilograms,2016,8.53007874015748,172.085,EU
-103,Czech Republic,plastic bag,thousand units,2016,0.06,448.2,EU
-104,Denmark,textile bag,number,2016,0.00131,9890.0,EU
-105,Denmark,paper bag,kilograms,2016,7.771653543307087,247.01500000000001,EU
-106,Denmark,plastic bag,thousand units,2016,1.63,263.68,EU
-107,Estonia,textile bag,number,2016,0.0066,148750.0,EU
-108,Estonia,paper bag,kilograms,2016,0.08645669291338583,98.425,EU
-109,Estonia,plastic bag,thousand units,2016,0.0,,EU
-110,Finland,textile bag,number,2016,0.0053,11320.0,EU
-111,Finland,paper bag,kilograms,2016,30.26755905511811,142.875,EU
-112,Finland,plastic bag,thousand units,2016,0.03,1370.78,EU
-113,France,textile bag,number,2016,0.09759999999999999,8450.0,EU
-114,France,paper bag,kilograms,2016,163.33811023622047,229.23499999999999,EU
-115,France,plastic bag,thousand units,2016,135.28,70.78,EU
-116,Germany,textile bag,number,2016,0.16349,8800.0,EU
-117,Germany,paper bag,kilograms,2016,1317.2850393700787,194.945,EU
-118,Germany,plastic bag,thousand units,2016,1887.98,21.52,EU
-119,Greece,textile bag,number,2016,0.00122,860.0,EU
-120,Greece,paper bag,kilograms,2016,0.766771653543307,183.51500000000001,EU
-121,Greece,plastic bag,thousand units,2016,31.17,31.35,EU
-122,Hungary,textile bag,number,2016,0.00348,5370.0,EU
-123,Hungary,paper bag,kilograms,2016,2.2426771653543307,500.38,EU
-124,Hungary,plastic bag,thousand units,2016,141.15,0.73,EU
-125,India,textile bag,number,2016,1.76297,1820.0,India
-126,India,paper bag,kilograms,2016,123.16582677165354,134.62,India
-127,India,plastic bag,thousand units,2016,5711.8,10.65,India
-128,Ireland,textile bag,number,2016,0.00011999999999999999,7840.0,EU
-129,Ireland,paper bag,kilograms,2016,1.4129133858267717,201.93,EU
-130,Ireland,plastic bag,thousand units,2016,2.43,196.17,EU
-131,Italy,textile bag,number,2016,0.28625,8140.000000000001,EU
-132,Italy,paper bag,kilograms,2016,297.2763779527559,140.97,EU
-133,Italy,plastic bag,thousand units,2016,106.42,10.54,EU
-134,Latvia,textile bag,number,2016,1e-05,151500.0,EU
-135,Latvia,paper bag,kilograms,2016,0.011181102362204725,1712.595,EU
-136,Latvia,plastic bag,thousand units,2016,0.0,1440.0,EU
-137,Lithuania,textile bag,number,2016,0.00016,17280.0,EU
-138,Lithuania,paper bag,kilograms,2016,0.008346456692913387,1517.6499999999999,EU
-139,Lithuania,plastic bag,thousand units,2016,0.0,,EU
-140,Luxembourg,textile bag,number,2016,0.0,,EU
-141,Luxembourg,paper bag,kilograms,2016,0.5228346456692914,124.46,EU
-142,Luxembourg,plastic bag,thousand units,2016,0.0,,EU
-143,Malta,paper bag,kilograms,2016,0.05826771653543308,85.72500000000001,EU
-144,Netherlands,textile bag,number,2016,0.04782,2820.0,EU
-145,Netherlands,paper bag,kilograms,2016,82.54692913385826,210.82,EU
-146,Netherlands,plastic bag,thousand units,2016,81.02,44.59,EU
-147,Poland,textile bag,number,2016,0.02634,8210.0,EU
-148,Poland,paper bag,kilograms,2016,24.896062992125987,330.835,EU
-149,Poland,plastic bag,thousand units,2016,4.93,202.15,EU
-150,Portugal,textile bag,number,2016,0.03254,15210.0,EU
-151,Portugal,paper bag,kilograms,2016,10.714330708661418,183.51500000000001,EU
-152,Portugal,plastic bag,thousand units,2016,1.8,39.48,EU
-153,Romania,textile bag,number,2016,0.00412,43700.0,EU
-154,Romania,paper bag,kilograms,2016,0.1537007874015748,125.73,EU
-155,Romania,plastic bag,thousand units,2016,0.13,25.24,EU
-156,Slovakia,textile bag,number,2016,7.000000000000001e-05,36430.0,EU
-157,Slovakia,paper bag,kilograms,2016,0.2628346456692914,767.08,EU
-158,Slovakia,plastic bag,thousand units,2016,0.2,107.84,EU
-159,Slovenia,textile bag,number,2016,0.0,,EU
-160,Slovenia,paper bag,kilograms,2016,0.12330708661417324,542.29,EU
-161,Slovenia,plastic bag,thousand units,2016,0.26,732.08,EU
-162,Spain,textile bag,number,2016,0.0587,7540.0,EU
-163,Spain,paper bag,kilograms,2016,155.30425196850393,198.755,EU
-164,Spain,plastic bag,thousand units,2016,182.73,37.3,EU
-165,Sweden,textile bag,number,2016,0.0020499999999999997,12980.0,EU
-166,Sweden,paper bag,kilograms,2016,27.983464566929136,205.74,EU
-167,Sweden,plastic bag,thousand units,2016,53.98,14.13,EU
-168,Austria,textile bag,number,2017,0.006889999999999999,4440.0,EU
-169,Austria,paper bag,kilograms,2017,107.52535433070865,130.81,EU
-170,Austria,plastic bag,thousand units,2017,0.56,54.88,EU
-171,Belgium,textile bag,number,2017,0.009630000000000001,5240.0,EU
-172,Belgium,paper bag,kilograms,2017,15.764251968503936,623.57,EU
-173,Belgium,plastic bag,thousand units,2017,29.51,100.09,EU
-174,Bulgaria,textile bag,number,2017,0.00020999999999999998,78770.0,EU
-175,Bulgaria,paper bag,kilograms,2017,0.012598425196850395,4004.945,EU
-176,Bulgaria,plastic bag,thousand units,2017,1.86,11.33,EU
-177,China,textile bag,number,2017,238.4983,2770.0,China
-178,China,paper bag,kilograms,2017,2839.656377952756,229.23499999999999,China
-179,China,plastic bag,thousand units,2017,82361.22,9.93,China
-180,Croatia,textile bag,number,2017,0.00015,3130.0,EU
-181,Croatia,paper bag,kilograms,2017,0.030393700787401574,269.24,EU
-182,Croatia,plastic bag,thousand units,2017,5.48,4.98,EU
-183,Cyprus,paper bag,kilograms,2017,0.29259842519685036,278.765,EU
-184,Cyprus,plastic bag,thousand units,2017,0.0,,EU
-185,Czech Republic,textile bag,number,2017,0.00553,5960.0,EU
-186,Czech Republic,paper bag,kilograms,2017,11.263779527559056,156.21,EU
-187,Czech Republic,plastic bag,thousand units,2017,0.02,1761.94,EU
-188,Denmark,textile bag,number,2017,0.0034100000000000003,5360.0,EU
-189,Denmark,paper bag,kilograms,2017,13.553700787401574,300.99,EU
-190,Denmark,plastic bag,thousand units,2017,28.73,25.54,EU
-191,Estonia,textile bag,number,2017,0.00429,134350.0,EU
-192,Estonia,paper bag,kilograms,2017,0.0,,EU
-193,Estonia,plastic bag,thousand units,2017,0.0,,EU
-194,Finland,textile bag,number,2017,0.004059999999999999,7010.0,EU
-195,Finland,paper bag,kilograms,2017,22.431496062992128,141.605,EU
-196,Finland,plastic bag,thousand units,2017,0.05,819.52,EU
-197,France,textile bag,number,2017,0.04852,14670.0,EU
-198,France,paper bag,kilograms,2017,165.66267716535432,235.585,EU
-199,France,plastic bag,thousand units,2017,124.44,61.5,EU
-200,Germany,textile bag,number,2017,0.09136,7330.0,EU
-201,Germany,paper bag,kilograms,2017,1138.3061417322835,226.695,EU
-202,Germany,plastic bag,thousand units,2017,1188.23,27.39,EU
-203,Greece,textile bag,number,2017,0.0,,EU
-204,Greece,paper bag,kilograms,2017,0.26881889763779526,306.07,EU
-205,Greece,plastic bag,thousand units,2017,12.89,92.52,EU
-206,Hungary,textile bag,number,2017,0.00015,163960.0,EU
-207,Hungary,paper bag,kilograms,2017,0.6426771653543307,423.545,EU
-208,Hungary,plastic bag,thousand units,2017,78.35,0.97,EU
-209,India,textile bag,number,2017,1.88091,1910.0,India
-210,India,paper bag,kilograms,2017,108.74062992125984,130.81,India
-211,India,plastic bag,thousand units,2017,6965.01,9.59,India
-212,Ireland,textile bag,number,2017,8e-05,31930.0,EU
-213,Ireland,paper bag,kilograms,2017,7.162204724409449,134.62,EU
-214,Ireland,plastic bag,thousand units,2017,45.85,8.33,EU
-215,Italy,textile bag,number,2017,0.07987999999999999,19320.0,EU
-216,Italy,paper bag,kilograms,2017,257.0155905511811,171.45000000000002,EU
-217,Italy,plastic bag,thousand units,2017,406.08,6.27,EU
-218,Latvia,textile bag,number,2017,0.0,117670.0,EU
-219,Latvia,paper bag,kilograms,2017,0.0352755905511811,1262.3799999999999,EU
-220,Latvia,plastic bag,thousand units,2017,0.02,305.29,EU
-221,Lithuania,textile bag,number,2017,1e-05,170780.0,EU
-222,Lithuania,paper bag,kilograms,2017,0.041417322834645665,1226.82,EU
-223,Lithuania,plastic bag,thousand units,2017,0.0,,EU
-224,Luxembourg,textile bag,number,2017,0.0002,2300.0,EU
-225,Luxembourg,paper bag,kilograms,2017,0.0011023622047244095,37446.585,EU
-226,Luxembourg,plastic bag,thousand units,2017,0.0,,EU
-227,Malta,paper bag,kilograms,2017,0.0,,EU
-228,Netherlands,textile bag,number,2017,0.00741,9490.0,EU
-229,Netherlands,paper bag,kilograms,2017,101.16283464566929,185.42,EU
-230,Netherlands,plastic bag,thousand units,2017,91.36,39.13,EU
-231,Poland,textile bag,number,2017,0.026690000000000002,10810.0,EU
-232,Poland,paper bag,kilograms,2017,38.23338582677166,367.665,EU
-233,Poland,plastic bag,thousand units,2017,25.85,53.8,EU
-234,Portugal,textile bag,number,2017,0.04347,10750.0,EU
-235,Portugal,paper bag,kilograms,2017,11.286299212598424,196.215,EU
-236,Portugal,plastic bag,thousand units,2017,0.49,184.74,EU
-237,Romania,textile bag,number,2017,0.0003,92250.0,EU
-238,Romania,paper bag,kilograms,2017,0.1377952755905512,861.695,EU
-239,Romania,plastic bag,thousand units,2017,0.06,76.33,EU
-240,Slovakia,textile bag,number,2017,0.0,,EU
-241,Slovakia,paper bag,kilograms,2017,0.554488188976378,894.715,EU
-242,Slovakia,plastic bag,thousand units,2017,0.32,28.58,EU
-243,Slovenia,textile bag,number,2017,0.0,693000.0,EU
-244,Slovenia,paper bag,kilograms,2017,0.14803149606299212,307.34,EU
-245,Slovenia,plastic bag,thousand units,2017,0.05,1856.91,EU
-246,Spain,textile bag,number,2017,0.060200000000000004,6530.0,EU
-247,Spain,paper bag,kilograms,2017,152.56755905511812,186.055,EU
-248,Spain,plastic bag,thousand units,2017,252.54,26.2,EU
-249,Sweden,textile bag,number,2017,0.00852,5640.0,EU
-250,Sweden,paper bag,kilograms,2017,20.88236220472441,248.285,EU
-251,Sweden,plastic bag,thousand units,2017,14.71,59.29,EU
-252,Austria,textile bag,number,2018,0.00281,8130.000000000001,EU
-253,Austria,paper bag,kilograms,2018,40.280629921259845,161.29,EU
-254,Austria,plastic bag,thousand units,2018,0.48,344.83,EU
-255,Belgium,textile bag,number,2018,0.056420000000000005,3360.0,EU
-256,Belgium,paper bag,kilograms,2018,47.46834645669291,271.78000000000003,EU
-257,Belgium,plastic bag,thousand units,2018,109.59,26.52,EU
-258,Bulgaria,textile bag,number,2018,0.00014000000000000001,10510.0,EU
-259,Bulgaria,paper bag,kilograms,2018,0.002047244094488189,5542.915,EU
-260,Bulgaria,plastic bag,thousand units,2018,1.65,17.64,EU
-261,China,textile bag,number,2018,254.48284,2770.0,China
-262,China,paper bag,kilograms,2018,3045.629606299213,231.775,China
-263,China,plastic bag,thousand units,2018,88373.09,9.71,China
-264,Croatia,textile bag,number,2018,0.0,,EU
-265,Croatia,paper bag,kilograms,2018,0.004409448818897638,113.665,EU
-266,Croatia,plastic bag,thousand units,2018,5.2,12.11,EU
-267,Cyprus,paper bag,kilograms,2018,0.3222047244094488,354.33,EU
-268,Cyprus,plastic bag,thousand units,2018,0.0,,EU
-269,Czech Republic,textile bag,number,2018,0.0011200000000000001,7820.0,EU
-270,Czech Republic,paper bag,kilograms,2018,12.598740157480314,194.31,EU
-271,Czech Republic,plastic bag,thousand units,2018,24.92,4.84,EU
-272,Denmark,textile bag,number,2018,0.01768,13460.0,EU
-273,Denmark,paper bag,kilograms,2018,18.16283464566929,416.56,EU
-274,Denmark,plastic bag,thousand units,2018,63.79,14.18,EU
-275,Estonia,textile bag,number,2018,0.00342,151540.0,EU
-276,Estonia,paper bag,kilograms,2018,0.0006299212598425197,3810.0,EU
-277,Estonia,plastic bag,thousand units,2018,0.0,,EU
-278,Finland,textile bag,number,2018,0.0004,120650.0,EU
-279,Finland,paper bag,kilograms,2018,37.16110236220472,107.315,EU
-280,Finland,plastic bag,thousand units,2018,0.12,228.79,EU
-281,France,textile bag,number,2018,0.08258,6030.0,EU
-282,France,paper bag,kilograms,2018,152.49590551181103,263.52500000000003,EU
-283,France,plastic bag,thousand units,2018,224.82,54.87,EU
-284,Germany,textile bag,number,2018,0.08754,6080.0,EU
-285,Germany,paper bag,kilograms,2018,1159.6173228346456,232.41,EU
-286,Germany,plastic bag,thousand units,2018,1497.33,23.9,EU
-287,Greece,textile bag,number,2018,5e-05,29260.0,EU
-288,Greece,paper bag,kilograms,2018,1.117007874015748,244.475,EU
-289,Greece,plastic bag,thousand units,2018,9.23,72.67,EU
-290,Hungary,textile bag,number,2018,0.00027,102600.0,EU
-291,Hungary,paper bag,kilograms,2018,3.1836220472440946,313.69,EU
-292,Hungary,plastic bag,thousand units,2018,36.06,1.21,EU
-293,India,textile bag,number,2018,2.0620100000000003,1980.0,India
-294,India,paper bag,kilograms,2018,114.83464566929133,151.76500000000001,India
-295,India,plastic bag,thousand units,2018,10435.85,7.59,India
-296,Ireland,textile bag,number,2018,0.00028000000000000003,210600.0,EU
-297,Ireland,paper bag,kilograms,2018,3.073543307086614,177.79999999999998,EU
-298,Ireland,plastic bag,thousand units,2018,134.95,4.2,EU
-299,Italy,textile bag,number,2018,0.07149,37550.0,EU
-300,Italy,paper bag,kilograms,2018,265.7379527559055,187.96,EU
-301,Italy,plastic bag,thousand units,2018,365.01,4.73,EU
-302,Latvia,textile bag,number,2018,2.9999999999999997e-05,539610.0,EU
-303,Latvia,paper bag,kilograms,2018,0.03590551181102362,1517.015,EU
-304,Latvia,plastic bag,thousand units,2018,0.0,,EU
-305,Lithuania,textile bag,number,2018,0.00115,7780.0,EU
-306,Lithuania,paper bag,kilograms,2018,0.03653543307086614,948.6899999999999,EU
-307,Lithuania,plastic bag,thousand units,2018,0.84,47.02,EU
-308,Luxembourg,textile bag,number,2018,0.0,,EU
-309,Luxembourg,paper bag,kilograms,2018,0.015433070866141731,375.285,EU
-310,Luxembourg,plastic bag,thousand units,2018,0.01,344.5,EU
-311,Malta,paper bag,kilograms,2018,0.05070866141732284,9713.595,EU
-312,Netherlands,textile bag,number,2018,0.00792,13990.0,EU
-313,Netherlands,paper bag,kilograms,2018,134.75448818897638,174.625,EU
-314,Netherlands,plastic bag,thousand units,2018,159.35,24.64,EU
-315,Poland,textile bag,number,2018,2.00374,20.0,EU
-316,Poland,paper bag,kilograms,2018,52.317480314960626,330.835,EU
-317,Poland,plastic bag,thousand units,2018,28.61,39.22,EU
-318,Portugal,textile bag,number,2018,0.08796999999999999,2870.0,EU
-319,Portugal,paper bag,kilograms,2018,15.363937007874016,202.565,EU
-320,Portugal,plastic bag,thousand units,2018,2.25,98.0,EU
-321,Romania,textile bag,number,2018,0.00015,95130.0,EU
-322,Romania,paper bag,kilograms,2018,0.597007874015748,312.42,EU
-323,Romania,plastic bag,thousand units,2018,0.03,476.62,EU
-324,Slovakia,textile bag,number,2018,0.0001,112210.0,EU
-325,Slovakia,paper bag,kilograms,2018,1.800787401574803,562.61,EU
-326,Slovakia,plastic bag,thousand units,2018,2.1,41.97,EU
-327,Slovenia,textile bag,number,2018,0.001,2240.0,EU
-328,Slovenia,paper bag,kilograms,2018,0.08125984251968504,511.81000000000006,EU
-329,Slovenia,plastic bag,thousand units,2018,0.13,1001.41,EU
-330,Spain,textile bag,number,2018,0.07031,5900.0,EU
-331,Spain,paper bag,kilograms,2018,184.74818897637795,215.9,EU
-332,Spain,plastic bag,thousand units,2018,1348.17,6.16,EU
-333,Sweden,textile bag,number,2018,0.0014399999999999999,36960.0,EU
-334,Sweden,paper bag,kilograms,2018,26.88456692913386,236.855,EU
-335,Sweden,plastic bag,thousand units,2018,15.44,90.51,EU
-336,Austria,textile bag,number,2019,0.00492,5550.0,EU
-337,Austria,paper bag,kilograms,2019,25.05291338582677,205.74,EU
-338,Austria,plastic bag,thousand units,2019,1.49,465.29,EU
-339,Belgium,textile bag,number,2019,0.009970000000000001,12700.0,EU
-340,Belgium,paper bag,kilograms,2019,41.17858267716536,304.165,EU
-341,Belgium,plastic bag,thousand units,2019,425.24,3.97,EU
-342,Bulgaria,textile bag,number,2019,0.00069,5470.0,EU
-343,Bulgaria,paper bag,kilograms,2019,0.028818897637795278,2223.1349999999998,EU
-344,Bulgaria,plastic bag,thousand units,2019,2.51,12.28,EU
-345,China,textile bag,number,2019,189.97245,2880.0,China
-346,China,paper bag,kilograms,2019,2480.509448818898,212.725,China
-347,China,plastic bag,thousand units,2019,64355.54,8.85,China
-348,Croatia,textile bag,number,2019,0.0,,EU
-349,Croatia,paper bag,kilograms,2019,0.3011023622047244,93.345,EU
-350,Croatia,plastic bag,thousand units,2019,9.86,3.83,EU
-351,Cyprus,paper bag,kilograms,2019,0.19401574803149607,497.205,EU
-352,Cyprus,plastic bag,thousand units,2019,0.03,28.52,EU
-353,Czech Republic,textile bag,number,2019,0.004019999999999999,4670.0,EU
-354,Czech Republic,paper bag,kilograms,2019,9.224724409448818,217.17,EU
-355,Czech Republic,plastic bag,thousand units,2019,10.61,26.37,EU
-356,Denmark,textile bag,number,2019,0.00127,17550.0,EU
-357,Denmark,paper bag,kilograms,2019,8.479685039370079,302.26,EU
-358,Denmark,plastic bag,thousand units,2019,101.97,6.22,EU
-359,Estonia,textile bag,number,2019,0.0103,151560.0,EU
-360,Estonia,paper bag,kilograms,2019,0.0,203962.0,EU
-361,Estonia,plastic bag,thousand units,2019,0.0,,EU
-362,Finland,textile bag,number,2019,8.999999999999999e-05,44630.0,EU
-363,Finland,paper bag,kilograms,2019,43.30110236220472,178.435,EU
-364,Finland,plastic bag,thousand units,2019,2.71,119.92,EU
-365,France,textile bag,number,2019,0.08609,8260.0,EU
-366,France,paper bag,kilograms,2019,146.73448818897637,261.62,EU
-367,France,plastic bag,thousand units,2019,301.71,36.2,EU
-368,Germany,textile bag,number,2019,0.0773,8010.0,EU
-369,Germany,paper bag,kilograms,2019,1118.5511811023623,233.045,EU
-370,Germany,plastic bag,thousand units,2019,1131.29,29.87,EU
-371,Greece,textile bag,number,2019,0.00016,15150.0,EU
-372,Greece,paper bag,kilograms,2019,1.7609448818897637,232.41,EU
-373,Greece,plastic bag,thousand units,2019,33.84,5.86,EU
-374,Hungary,textile bag,number,2019,0.00062,28550.0,EU
-375,Hungary,paper bag,kilograms,2019,2.282047244094488,297.815,EU
-376,Hungary,plastic bag,thousand units,2019,6.48,6.28,EU
-377,India,textile bag,number,2019,2.7636700000000003,1520.0,India
-378,India,paper bag,kilograms,2019,162.79401574803148,156.21,India
-379,India,plastic bag,thousand units,2019,10322.68,8.14,India
-380,Ireland,textile bag,number,2019,0.00764,21440.0,EU
-381,Ireland,paper bag,kilograms,2019,1.6015748031496064,257.81,EU
-382,Ireland,plastic bag,thousand units,2019,149.15,5.45,EU
-383,Italy,textile bag,number,2019,0.08397,25480.0,EU
-384,Italy,paper bag,kilograms,2019,182.07905511811023,223.52,EU
-385,Italy,plastic bag,thousand units,2019,159.24,11.1,EU
-386,Latvia,textile bag,number,2019,2.9999999999999997e-05,189070.0,EU
-387,Latvia,paper bag,kilograms,2019,0.0662992125984252,1657.985,EU
-388,Latvia,plastic bag,thousand units,2019,0.0,,EU
-389,Lithuania,textile bag,number,2019,0.00016,17190.0,EU
-390,Lithuania,paper bag,kilograms,2019,0.09732283464566929,694.055,EU
-391,Lithuania,plastic bag,thousand units,2019,0.0,,EU
-392,Luxembourg,textile bag,number,2019,0.0,,EU
-393,Luxembourg,paper bag,kilograms,2019,0.20031496062992127,147.32,EU
-394,Luxembourg,plastic bag,thousand units,2019,0.05,146.43,EU
-395,Malta,paper bag,kilograms,2019,0.12992125984251968,5753.099999999999,EU
-396,Netherlands,textile bag,number,2019,0.0039700000000000004,22360.0,EU
-397,Netherlands,paper bag,kilograms,2019,133.08551181102362,189.865,EU
-398,Netherlands,plastic bag,thousand units,2019,67.14,47.77,EU
-399,Poland,textile bag,number,2019,0.00517,8560.0,EU
-400,Poland,paper bag,kilograms,2019,97.33685039370079,237.49,EU
-401,Poland,plastic bag,thousand units,2019,23.7,53.55,EU
-402,Portugal,textile bag,number,2019,0.00653,6700.0,EU
-403,Portugal,paper bag,kilograms,2019,26.599999999999998,174.625,EU
-404,Portugal,plastic bag,thousand units,2019,31.79,8.84,EU
-405,Romania,textile bag,number,2019,0.00377,9620.0,EU
-406,Romania,paper bag,kilograms,2019,0.4825196850393701,147.955,EU
-407,Romania,plastic bag,thousand units,2019,0.13,124.93,EU
-408,Slovakia,textile bag,number,2019,4e-05,82680.0,EU
-409,Slovakia,paper bag,kilograms,2019,0.9700787401574803,154.305,EU
-410,Slovakia,plastic bag,thousand units,2019,3.8,39.23,EU
-411,Slovenia,textile bag,number,2019,2e-05,62050.0,EU
-412,Slovenia,paper bag,kilograms,2019,0.31748031496062995,479.425,EU
-413,Slovenia,plastic bag,thousand units,2019,21.14,5.85,EU
-414,Spain,textile bag,number,2019,0.18428999999999998,4560.0,EU
-415,Spain,paper bag,kilograms,2019,385.3903937007874,160.655,EU
-416,Spain,plastic bag,thousand units,2019,666.22,7.4,EU
-417,Sweden,textile bag,number,2019,0.004059999999999999,5340.0,EU
-418,Sweden,paper bag,kilograms,2019,47.7163779527559,184.785,EU
-419,Sweden,plastic bag,thousand units,2019,39.4,28.88,EU
-420,Austria,textile bag,number,2020,0.0015,8070.0,EU
-421,Austria,paper bag,kilograms,2020,30.872598425196852,173.99,EU
-422,Austria,plastic bag,thousand units,2020,317.59,2.9,EU
-423,Belgium,textile bag,number,2020,0.0034500000000000004,11530.0,EU
-424,Belgium,paper bag,kilograms,2020,17.13196850393701,659.765,EU
-425,Belgium,plastic bag,thousand units,2020,37.02,58.26,EU
-426,Bulgaria,textile bag,number,2020,0.0008900000000000001,23780.0,EU
-427,Bulgaria,paper bag,kilograms,2020,0.07874015748031496,621.03,EU
-428,Bulgaria,plastic bag,thousand units,2020,1.28,10.35,EU
-429,China,textile bag,number,2020,137.56989000000002,2680.0,China
-430,China,paper bag,kilograms,2020,1902.3425196850394,198.755,China
-431,China,plastic bag,thousand units,2020,75396.38,8.16,China
-432,Croatia,textile bag,number,2020,0.00103,22720.0,EU
-433,Croatia,paper bag,kilograms,2020,0.0,,EU
-434,Croatia,plastic bag,thousand units,2020,0.02,2242.88,EU
-435,Cyprus,paper bag,kilograms,2020,0.14724409448818898,470.535,EU
-436,Cyprus,plastic bag,thousand units,2020,0.0,,EU
-437,Czech Republic,textile bag,number,2020,0.00847,9030.0,EU
-438,Czech Republic,paper bag,kilograms,2020,2.81763779527559,221.615,EU
-439,Czech Republic,plastic bag,thousand units,2020,0.91,272.83,EU
-440,Denmark,textile bag,number,2020,0.00126,13460.0,EU
-441,Denmark,paper bag,kilograms,2020,3.7543307086614175,430.53000000000003,EU
-442,Denmark,plastic bag,thousand units,2020,3.06,132.02,EU
-443,Estonia,textile bag,number,2020,0.00608,221380.0,EU
-444,Estonia,paper bag,kilograms,2020,0.00047244094488188977,480.06,EU
-445,Estonia,plastic bag,thousand units,2020,0.02,12.0,EU
-446,Finland,textile bag,number,2020,0.00025,79980.0,EU
-447,Finland,paper bag,kilograms,2020,62.582519685039365,158.115,EU
-448,Finland,plastic bag,thousand units,2020,53.16,8.74,EU
-449,France,textile bag,number,2020,0.051840000000000004,147150.0,EU
-450,France,paper bag,kilograms,2020,134.17228346456693,255.26999999999998,EU
-451,France,plastic bag,thousand units,2020,544.61,36.47,EU
-452,Germany,textile bag,number,2020,0.16054,3820.0,EU
-453,Germany,paper bag,kilograms,2020,1110.6525984251969,222.25,EU
-454,Germany,plastic bag,thousand units,2020,1387.25,33.46,EU
-455,Greece,textile bag,number,2020,0.0,,EU
-456,Greece,paper bag,kilograms,2020,2.9513385826771654,307.34,EU
-457,Greece,plastic bag,thousand units,2020,1.5,7.54,EU
-458,Hungary,textile bag,number,2020,0.00020999999999999998,32330.0,EU
-459,Hungary,paper bag,kilograms,2020,3.515748031496063,394.96999999999997,EU
-460,Hungary,plastic bag,thousand units,2020,0.99,34.51,EU
-461,India,textile bag,number,2020,1.52731,2140.0,India
-462,India,paper bag,kilograms,2020,238.93259842519683,127.63499999999999,India
-463,India,plastic bag,thousand units,2020,9320.65,7.93,India
-464,Ireland,textile bag,number,2020,0.00017999999999999998,2000.0,EU
-465,Ireland,paper bag,kilograms,2020,28.873385826771653,111.76,EU
-466,Ireland,plastic bag,thousand units,2020,332.34,2.14,EU
-467,Italy,textile bag,number,2020,0.08763,26920.0,EU
-468,Italy,paper bag,kilograms,2020,177.20629921259842,220.98,EU
-469,Italy,plastic bag,thousand units,2020,201.8,7.52,EU
-470,Latvia,textile bag,number,2020,0.0006,29420.0,EU
-471,Latvia,paper bag,kilograms,2020,0.04566929133858268,1670.685,EU
-472,Latvia,plastic bag,thousand units,2020,0.0,,EU
-473,Lithuania,textile bag,number,2020,0.00025,15460.0,EU
-474,Lithuania,paper bag,kilograms,2020,0.20393700787401572,708.66,EU
-475,Lithuania,plastic bag,thousand units,2020,0.0,280.0,EU
-476,Luxembourg,textile bag,number,2020,0.0,,EU
-477,Luxembourg,paper bag,kilograms,2020,0.10314960629921259,612.775,EU
-478,Luxembourg,plastic bag,thousand units,2020,0.0,,EU
-479,Malta,paper bag,kilograms,2020,0.6141732283464567,1060.45,EU
-480,Netherlands,textile bag,number,2020,0.00992,5040.0,EU
-481,Netherlands,paper bag,kilograms,2020,147.78787401574803,166.37,EU
-482,Netherlands,plastic bag,thousand units,2020,145.65,20.82,EU
-483,Poland,textile bag,number,2020,0.00349,33760.0,EU
-484,Poland,paper bag,kilograms,2020,135.48818897637796,210.185,EU
-485,Poland,plastic bag,thousand units,2020,22.48,51.76,EU
-486,Portugal,textile bag,number,2020,0.0030499999999999998,11900.0,EU
-487,Portugal,paper bag,kilograms,2020,69.45937007874016,150.495,EU
-488,Portugal,plastic bag,thousand units,2020,16.71,40.55,EU
-489,Romania,textile bag,number,2020,0.00605,24350.0,EU
-490,Romania,paper bag,kilograms,2020,1.9636220472440944,98.425,EU
-491,Romania,plastic bag,thousand units,2020,3.1,1.7,EU
-492,Slovakia,textile bag,number,2020,0.0,,EU
-493,Slovakia,paper bag,kilograms,2020,0.002204724409448819,1577.34,EU
-494,Slovakia,plastic bag,thousand units,2020,2.61,128.1,EU
-495,Slovenia,textile bag,number,2020,0.0,128000.0,EU
-496,Slovenia,paper bag,kilograms,2020,0.13889763779527559,454.02500000000003,EU
-497,Slovenia,plastic bag,thousand units,2020,38.51,5.33,EU
-498,Spain,textile bag,number,2020,0.054700000000000006,28570.0,EU
-499,Spain,paper bag,kilograms,2020,394.74866141732286,149.85999999999999,EU
-500,Spain,plastic bag,thousand units,2020,594.23,9.02,EU
-501,Sweden,textile bag,number,2020,0.00125,21610.0,EU
-502,Sweden,paper bag,kilograms,2020,37.69055118110236,234.95000000000002,EU
-503,Sweden,plastic bag,thousand units,2020,148.02,24.3,EU
+Country,product,Quantity Description,Year,qty_thousands,price_per_thousands,country_category
+Austria,textile bag,number,2015,0.00242,5740.0,EU
+Austria,paper bag,kilograms,2015,24.69968503937008,207.645,EU
+Austria,plastic bag,thousand units,2015,3.08,35.14,EU
+Belgium,textile bag,number,2015,0.00085,7940.0,EU
+Belgium,paper bag,kilograms,2015,21.446771653543305,455.295,EU
+Belgium,plastic bag,thousand units,2015,35.74,97.91,EU
+Bulgaria,textile bag,number,2015,0.0,,EU
+Bulgaria,paper bag,kilograms,2015,0.02236220472440945,2585.72,EU
+Bulgaria,plastic bag,thousand units,2015,0.61,59.69,EU
+China,textile bag,number,2015,257.47685,2650.0,China
+China,paper bag,kilograms,2015,2892.685196850394,228.6,China
+China,plastic bag,thousand units,2015,76598.59,10.47,China
+Croatia,textile bag,number,2015,0.0,,EU
+Croatia,paper bag,kilograms,2015,0.0,,EU
+Croatia,plastic bag,thousand units,2015,4.71,5.12,EU
+Cyprus,paper bag,kilograms,2015,0.014488188976377953,333.375,EU
+Cyprus,plastic bag,thousand units,2015,0.0,,EU
+Czech Republic,textile bag,number,2015,0.01331,1160.0,EU
+Czech Republic,paper bag,kilograms,2015,4.029448818897638,215.26500000000001,EU
+Czech Republic,plastic bag,thousand units,2015,37.03,0.77,EU
+Denmark,textile bag,number,2015,0.00107,15120.0,EU
+Denmark,paper bag,kilograms,2015,1.1248818897637796,580.39,EU
+Denmark,plastic bag,thousand units,2015,20.29,14.53,EU
+Estonia,textile bag,number,2015,0.00696,190340.0,EU
+Estonia,paper bag,kilograms,2015,0.25338582677165356,125.095,EU
+Estonia,plastic bag,thousand units,2015,0.0,,EU
+Finland,textile bag,number,2015,0.00876,6850.0,EU
+Finland,paper bag,kilograms,2015,48.423464566929134,128.27,EU
+Finland,plastic bag,thousand units,2015,0.38,103.12,EU
+France,textile bag,number,2015,0.6958799999999999,5420.0,EU
+France,paper bag,kilograms,2015,132.58015748031497,247.65,EU
+France,plastic bag,thousand units,2015,95.1,58.5,EU
+Germany,textile bag,number,2015,0.24147,5190.0,EU
+Germany,paper bag,kilograms,2015,1814.7787401574803,177.79999999999998,EU
+Germany,plastic bag,thousand units,2015,3318.51,9.75,EU
+Greece,textile bag,number,2015,0.00037,15940.0,EU
+Greece,paper bag,kilograms,2015,0.10960629921259843,379.09499999999997,EU
+Greece,plastic bag,thousand units,2015,5.78,157.16,EU
+Hungary,textile bag,number,2015,8.999999999999999e-05,36800.0,EU
+Hungary,paper bag,kilograms,2015,0.5313385826771654,354.33,EU
+Hungary,plastic bag,thousand units,2015,5.0,1.29,EU
+India,textile bag,number,2015,2.7253600000000002,1670.0,India
+India,paper bag,kilograms,2015,116.22047244094489,138.43,India
+India,plastic bag,thousand units,2015,5411.3,9.07,India
+Ireland,textile bag,number,2015,0.00023999999999999998,35960.0,EU
+Ireland,paper bag,kilograms,2015,0.11291338582677166,1786.89,EU
+Ireland,plastic bag,thousand units,2015,4.5,81.78,EU
+Italy,textile bag,number,2015,0.10887999999999999,16990.0,EU
+Italy,paper bag,kilograms,2015,286.70771653543306,141.605,EU
+Italy,plastic bag,thousand units,2015,111.94,10.72,EU
+Latvia,textile bag,number,2015,0.0,,EU
+Latvia,paper bag,kilograms,2015,0.0006299212598425197,5680.71,EU
+Latvia,plastic bag,thousand units,2015,0.0,550.0,EU
+Lithuania,textile bag,number,2015,7.000000000000001e-05,23820.0,EU
+Lithuania,paper bag,kilograms,2015,0.04850393700787402,338.455,EU
+Lithuania,plastic bag,thousand units,2015,0.0,94.33,EU
+Luxembourg,textile bag,number,2015,2e-05,36300.0,EU
+Luxembourg,paper bag,kilograms,2015,0.5562204724409449,144.78,EU
+Luxembourg,plastic bag,thousand units,2015,0.0,,EU
+Malta,paper bag,kilograms,2015,0.0,,EU
+Netherlands,textile bag,number,2015,0.00992,5840.0,EU
+Netherlands,paper bag,kilograms,2015,61.08362204724409,209.54999999999998,EU
+Netherlands,plastic bag,thousand units,2015,126.67,23.43,EU
+Poland,textile bag,number,2015,0.02252,9010.0,EU
+Poland,paper bag,kilograms,2015,29.814015748031498,323.215,EU
+Poland,plastic bag,thousand units,2015,35.98,22.98,EU
+Portugal,textile bag,number,2015,0.01039,16110.0,EU
+Portugal,paper bag,kilograms,2015,2.651968503937008,276.86,EU
+Portugal,plastic bag,thousand units,2015,0.05,531.04,EU
+Romania,textile bag,number,2015,0.00447,48990.0,EU
+Romania,paper bag,kilograms,2015,0.12913385826771653,104.14,EU
+Romania,plastic bag,thousand units,2015,0.68,14.32,EU
+Slovakia,textile bag,number,2015,0.00016,269940.0,EU
+Slovakia,paper bag,kilograms,2015,0.002047244094488189,995.045,EU
+Slovakia,plastic bag,thousand units,2015,35.05,3.36,EU
+Slovenia,textile bag,number,2015,2e-05,16129.999999999998,EU
+Slovenia,paper bag,kilograms,2015,0.22503937007874014,254.0,EU
+Slovenia,plastic bag,thousand units,2015,0.02,112.25,EU
+Spain,textile bag,number,2015,0.034159999999999996,7610.0,EU
+Spain,paper bag,kilograms,2015,119.58299212598426,201.295,EU
+Spain,plastic bag,thousand units,2015,200.48,30.69,EU
+Sweden,textile bag,number,2015,0.0052,20680.0,EU
+Sweden,paper bag,kilograms,2015,27.453700787401573,215.26500000000001,EU
+Sweden,plastic bag,thousand units,2015,23.35,28.28,EU
+Austria,textile bag,number,2016,0.026629999999999997,12770.0,EU
+Austria,paper bag,kilograms,2016,52.91653543307086,142.24,EU
+Austria,plastic bag,thousand units,2016,1.36,66.0,EU
+Belgium,textile bag,number,2016,0.00632,4530.0,EU
+Belgium,paper bag,kilograms,2016,18.226299212598423,540.385,EU
+Belgium,plastic bag,thousand units,2016,31.41,117.74,EU
+Bulgaria,textile bag,number,2016,0.00101,5410.0,EU
+Bulgaria,paper bag,kilograms,2016,0.09653543307086614,1261.11,EU
+Bulgaria,plastic bag,thousand units,2016,0.13,106.85,EU
+China,textile bag,number,2016,244.09393,2680.0,China
+China,paper bag,kilograms,2016,3181.065039370079,208.915,China
+China,plastic bag,thousand units,2016,81070.52,9.62,China
+Croatia,textile bag,number,2016,0.0,,EU
+Croatia,paper bag,kilograms,2016,0.0,,EU
+Croatia,plastic bag,thousand units,2016,6.96,5.17,EU
+Cyprus,paper bag,kilograms,2016,0.35401574803149605,348.615,EU
+Cyprus,plastic bag,thousand units,2016,0.0,,EU
+Czech Republic,textile bag,number,2016,0.001,4300.0,EU
+Czech Republic,paper bag,kilograms,2016,8.53007874015748,172.085,EU
+Czech Republic,plastic bag,thousand units,2016,0.06,448.2,EU
+Denmark,textile bag,number,2016,0.00131,9890.0,EU
+Denmark,paper bag,kilograms,2016,7.771653543307087,247.01500000000001,EU
+Denmark,plastic bag,thousand units,2016,1.63,263.68,EU
+Estonia,textile bag,number,2016,0.0066,148750.0,EU
+Estonia,paper bag,kilograms,2016,0.08645669291338583,98.425,EU
+Estonia,plastic bag,thousand units,2016,0.0,,EU
+Finland,textile bag,number,2016,0.0053,11320.0,EU
+Finland,paper bag,kilograms,2016,30.26755905511811,142.875,EU
+Finland,plastic bag,thousand units,2016,0.03,1370.78,EU
+France,textile bag,number,2016,0.09759999999999999,8450.0,EU
+France,paper bag,kilograms,2016,163.33811023622047,229.23499999999999,EU
+France,plastic bag,thousand units,2016,135.28,70.78,EU
+Germany,textile bag,number,2016,0.16349,8800.0,EU
+Germany,paper bag,kilograms,2016,1317.2850393700787,194.945,EU
+Germany,plastic bag,thousand units,2016,1887.98,21.52,EU
+Greece,textile bag,number,2016,0.00122,860.0,EU
+Greece,paper bag,kilograms,2016,0.766771653543307,183.51500000000001,EU
+Greece,plastic bag,thousand units,2016,31.17,31.35,EU
+Hungary,textile bag,number,2016,0.00348,5370.0,EU
+Hungary,paper bag,kilograms,2016,2.2426771653543307,500.38,EU
+Hungary,plastic bag,thousand units,2016,141.15,0.73,EU
+India,textile bag,number,2016,1.76297,1820.0,India
+India,paper bag,kilograms,2016,123.16582677165354,134.62,India
+India,plastic bag,thousand units,2016,5711.8,10.65,India
+Ireland,textile bag,number,2016,0.00011999999999999999,7840.0,EU
+Ireland,paper bag,kilograms,2016,1.4129133858267717,201.93,EU
+Ireland,plastic bag,thousand units,2016,2.43,196.17,EU
+Italy,textile bag,number,2016,0.28625,8140.000000000001,EU
+Italy,paper bag,kilograms,2016,297.2763779527559,140.97,EU
+Italy,plastic bag,thousand units,2016,106.42,10.54,EU
+Latvia,textile bag,number,2016,1e-05,151500.0,EU
+Latvia,paper bag,kilograms,2016,0.011181102362204725,1712.595,EU
+Latvia,plastic bag,thousand units,2016,0.0,1440.0,EU
+Lithuania,textile bag,number,2016,0.00016,17280.0,EU
+Lithuania,paper bag,kilograms,2016,0.008346456692913387,1517.6499999999999,EU
+Lithuania,plastic bag,thousand units,2016,0.0,,EU
+Luxembourg,textile bag,number,2016,0.0,,EU
+Luxembourg,paper bag,kilograms,2016,0.5228346456692914,124.46,EU
+Luxembourg,plastic bag,thousand units,2016,0.0,,EU
+Malta,paper bag,kilograms,2016,0.05826771653543308,85.72500000000001,EU
+Netherlands,textile bag,number,2016,0.04782,2820.0,EU
+Netherlands,paper bag,kilograms,2016,82.54692913385826,210.82,EU
+Netherlands,plastic bag,thousand units,2016,81.02,44.59,EU
+Poland,textile bag,number,2016,0.02634,8210.0,EU
+Poland,paper bag,kilograms,2016,24.896062992125987,330.835,EU
+Poland,plastic bag,thousand units,2016,4.93,202.15,EU
+Portugal,textile bag,number,2016,0.03254,15210.0,EU
+Portugal,paper bag,kilograms,2016,10.714330708661418,183.51500000000001,EU
+Portugal,plastic bag,thousand units,2016,1.8,39.48,EU
+Romania,textile bag,number,2016,0.00412,43700.0,EU
+Romania,paper bag,kilograms,2016,0.1537007874015748,125.73,EU
+Romania,plastic bag,thousand units,2016,0.13,25.24,EU
+Slovakia,textile bag,number,2016,7.000000000000001e-05,36430.0,EU
+Slovakia,paper bag,kilograms,2016,0.2628346456692914,767.08,EU
+Slovakia,plastic bag,thousand units,2016,0.2,107.84,EU
+Slovenia,textile bag,number,2016,0.0,,EU
+Slovenia,paper bag,kilograms,2016,0.12330708661417324,542.29,EU
+Slovenia,plastic bag,thousand units,2016,0.26,732.08,EU
+Spain,textile bag,number,2016,0.0587,7540.0,EU
+Spain,paper bag,kilograms,2016,155.30425196850393,198.755,EU
+Spain,plastic bag,thousand units,2016,182.73,37.3,EU
+Sweden,textile bag,number,2016,0.0020499999999999997,12980.0,EU
+Sweden,paper bag,kilograms,2016,27.983464566929136,205.74,EU
+Sweden,plastic bag,thousand units,2016,53.98,14.13,EU
+Austria,textile bag,number,2017,0.006889999999999999,4440.0,EU
+Austria,paper bag,kilograms,2017,107.52535433070865,130.81,EU
+Austria,plastic bag,thousand units,2017,0.56,54.88,EU
+Belgium,textile bag,number,2017,0.009630000000000001,5240.0,EU
+Belgium,paper bag,kilograms,2017,15.764251968503936,623.57,EU
+Belgium,plastic bag,thousand units,2017,29.51,100.09,EU
+Bulgaria,textile bag,number,2017,0.00020999999999999998,78770.0,EU
+Bulgaria,paper bag,kilograms,2017,0.012598425196850395,4004.945,EU
+Bulgaria,plastic bag,thousand units,2017,1.86,11.33,EU
+China,textile bag,number,2017,238.4983,2770.0,China
+China,paper bag,kilograms,2017,2839.656377952756,229.23499999999999,China
+China,plastic bag,thousand units,2017,82361.22,9.93,China
+Croatia,textile bag,number,2017,0.00015,3130.0,EU
+Croatia,paper bag,kilograms,2017,0.030393700787401574,269.24,EU
+Croatia,plastic bag,thousand units,2017,5.48,4.98,EU
+Cyprus,paper bag,kilograms,2017,0.29259842519685036,278.765,EU
+Cyprus,plastic bag,thousand units,2017,0.0,,EU
+Czech Republic,textile bag,number,2017,0.00553,5960.0,EU
+Czech Republic,paper bag,kilograms,2017,11.263779527559056,156.21,EU
+Czech Republic,plastic bag,thousand units,2017,0.02,1761.94,EU
+Denmark,textile bag,number,2017,0.0034100000000000003,5360.0,EU
+Denmark,paper bag,kilograms,2017,13.553700787401574,300.99,EU
+Denmark,plastic bag,thousand units,2017,28.73,25.54,EU
+Estonia,textile bag,number,2017,0.00429,134350.0,EU
+Estonia,paper bag,kilograms,2017,0.0,,EU
+Estonia,plastic bag,thousand units,2017,0.0,,EU
+Finland,textile bag,number,2017,0.004059999999999999,7010.0,EU
+Finland,paper bag,kilograms,2017,22.431496062992128,141.605,EU
+Finland,plastic bag,thousand units,2017,0.05,819.52,EU
+France,textile bag,number,2017,0.04852,14670.0,EU
+France,paper bag,kilograms,2017,165.66267716535432,235.585,EU
+France,plastic bag,thousand units,2017,124.44,61.5,EU
+Germany,textile bag,number,2017,0.09136,7330.0,EU
+Germany,paper bag,kilograms,2017,1138.3061417322835,226.695,EU
+Germany,plastic bag,thousand units,2017,1188.23,27.39,EU
+Greece,textile bag,number,2017,0.0,,EU
+Greece,paper bag,kilograms,2017,0.26881889763779526,306.07,EU
+Greece,plastic bag,thousand units,2017,12.89,92.52,EU
+Hungary,textile bag,number,2017,0.00015,163960.0,EU
+Hungary,paper bag,kilograms,2017,0.6426771653543307,423.545,EU
+Hungary,plastic bag,thousand units,2017,78.35,0.97,EU
+India,textile bag,number,2017,1.88091,1910.0,India
+India,paper bag,kilograms,2017,108.74062992125984,130.81,India
+India,plastic bag,thousand units,2017,6965.01,9.59,India
+Ireland,textile bag,number,2017,8e-05,31930.0,EU
+Ireland,paper bag,kilograms,2017,7.162204724409449,134.62,EU
+Ireland,plastic bag,thousand units,2017,45.85,8.33,EU
+Italy,textile bag,number,2017,0.07987999999999999,19320.0,EU
+Italy,paper bag,kilograms,2017,257.0155905511811,171.45000000000002,EU
+Italy,plastic bag,thousand units,2017,406.08,6.27,EU
+Latvia,textile bag,number,2017,0.0,117670.0,EU
+Latvia,paper bag,kilograms,2017,0.0352755905511811,1262.3799999999999,EU
+Latvia,plastic bag,thousand units,2017,0.02,305.29,EU
+Lithuania,textile bag,number,2017,1e-05,170780.0,EU
+Lithuania,paper bag,kilograms,2017,0.041417322834645665,1226.82,EU
+Lithuania,plastic bag,thousand units,2017,0.0,,EU
+Luxembourg,textile bag,number,2017,0.0002,2300.0,EU
+Luxembourg,paper bag,kilograms,2017,0.0011023622047244095,37446.585,EU
+Luxembourg,plastic bag,thousand units,2017,0.0,,EU
+Malta,paper bag,kilograms,2017,0.0,,EU
+Netherlands,textile bag,number,2017,0.00741,9490.0,EU
+Netherlands,paper bag,kilograms,2017,101.16283464566929,185.42,EU
+Netherlands,plastic bag,thousand units,2017,91.36,39.13,EU
+Poland,textile bag,number,2017,0.026690000000000002,10810.0,EU
+Poland,paper bag,kilograms,2017,38.23338582677166,367.665,EU
+Poland,plastic bag,thousand units,2017,25.85,53.8,EU
+Portugal,textile bag,number,2017,0.04347,10750.0,EU
+Portugal,paper bag,kilograms,2017,11.286299212598424,196.215,EU
+Portugal,plastic bag,thousand units,2017,0.49,184.74,EU
+Romania,textile bag,number,2017,0.0003,92250.0,EU
+Romania,paper bag,kilograms,2017,0.1377952755905512,861.695,EU
+Romania,plastic bag,thousand units,2017,0.06,76.33,EU
+Slovakia,textile bag,number,2017,0.0,,EU
+Slovakia,paper bag,kilograms,2017,0.554488188976378,894.715,EU
+Slovakia,plastic bag,thousand units,2017,0.32,28.58,EU
+Slovenia,textile bag,number,2017,0.0,693000.0,EU
+Slovenia,paper bag,kilograms,2017,0.14803149606299212,307.34,EU
+Slovenia,plastic bag,thousand units,2017,0.05,1856.91,EU
+Spain,textile bag,number,2017,0.060200000000000004,6530.0,EU
+Spain,paper bag,kilograms,2017,152.56755905511812,186.055,EU
+Spain,plastic bag,thousand units,2017,252.54,26.2,EU
+Sweden,textile bag,number,2017,0.00852,5640.0,EU
+Sweden,paper bag,kilograms,2017,20.88236220472441,248.285,EU
+Sweden,plastic bag,thousand units,2017,14.71,59.29,EU
+Austria,textile bag,number,2018,0.00281,8130.000000000001,EU
+Austria,paper bag,kilograms,2018,40.280629921259845,161.29,EU
+Austria,plastic bag,thousand units,2018,0.48,344.83,EU
+Belgium,textile bag,number,2018,0.056420000000000005,3360.0,EU
+Belgium,paper bag,kilograms,2018,47.46834645669291,271.78000000000003,EU
+Belgium,plastic bag,thousand units,2018,109.59,26.52,EU
+Bulgaria,textile bag,number,2018,0.00014000000000000001,10510.0,EU
+Bulgaria,paper bag,kilograms,2018,0.002047244094488189,5542.915,EU
+Bulgaria,plastic bag,thousand units,2018,1.65,17.64,EU
+China,textile bag,number,2018,254.48284,2770.0,China
+China,paper bag,kilograms,2018,3045.629606299213,231.775,China
+China,plastic bag,thousand units,2018,88373.09,9.71,China
+Croatia,textile bag,number,2018,0.0,,EU
+Croatia,paper bag,kilograms,2018,0.004409448818897638,113.665,EU
+Croatia,plastic bag,thousand units,2018,5.2,12.11,EU
+Cyprus,paper bag,kilograms,2018,0.3222047244094488,354.33,EU
+Cyprus,plastic bag,thousand units,2018,0.0,,EU
+Czech Republic,textile bag,number,2018,0.0011200000000000001,7820.0,EU
+Czech Republic,paper bag,kilograms,2018,12.598740157480314,194.31,EU
+Czech Republic,plastic bag,thousand units,2018,24.92,4.84,EU
+Denmark,textile bag,number,2018,0.01768,13460.0,EU
+Denmark,paper bag,kilograms,2018,18.16283464566929,416.56,EU
+Denmark,plastic bag,thousand units,2018,63.79,14.18,EU
+Estonia,textile bag,number,2018,0.00342,151540.0,EU
+Estonia,paper bag,kilograms,2018,0.0006299212598425197,3810.0,EU
+Estonia,plastic bag,thousand units,2018,0.0,,EU
+Finland,textile bag,number,2018,0.0004,120650.0,EU
+Finland,paper bag,kilograms,2018,37.16110236220472,107.315,EU
+Finland,plastic bag,thousand units,2018,0.12,228.79,EU
+France,textile bag,number,2018,0.08258,6030.0,EU
+France,paper bag,kilograms,2018,152.49590551181103,263.52500000000003,EU
+France,plastic bag,thousand units,2018,224.82,54.87,EU
+Germany,textile bag,number,2018,0.08754,6080.0,EU
+Germany,paper bag,kilograms,2018,1159.6173228346456,232.41,EU
+Germany,plastic bag,thousand units,2018,1497.33,23.9,EU
+Greece,textile bag,number,2018,5e-05,29260.0,EU
+Greece,paper bag,kilograms,2018,1.117007874015748,244.475,EU
+Greece,plastic bag,thousand units,2018,9.23,72.67,EU
+Hungary,textile bag,number,2018,0.00027,102600.0,EU
+Hungary,paper bag,kilograms,2018,3.1836220472440946,313.69,EU
+Hungary,plastic bag,thousand units,2018,36.06,1.21,EU
+India,textile bag,number,2018,2.0620100000000003,1980.0,India
+India,paper bag,kilograms,2018,114.83464566929133,151.76500000000001,India
+India,plastic bag,thousand units,2018,10435.85,7.59,India
+Ireland,textile bag,number,2018,0.00028000000000000003,210600.0,EU
+Ireland,paper bag,kilograms,2018,3.073543307086614,177.79999999999998,EU
+Ireland,plastic bag,thousand units,2018,134.95,4.2,EU
+Italy,textile bag,number,2018,0.07149,37550.0,EU
+Italy,paper bag,kilograms,2018,265.7379527559055,187.96,EU
+Italy,plastic bag,thousand units,2018,365.01,4.73,EU
+Latvia,textile bag,number,2018,2.9999999999999997e-05,539610.0,EU
+Latvia,paper bag,kilograms,2018,0.03590551181102362,1517.015,EU
+Latvia,plastic bag,thousand units,2018,0.0,,EU
+Lithuania,textile bag,number,2018,0.00115,7780.0,EU
+Lithuania,paper bag,kilograms,2018,0.03653543307086614,948.6899999999999,EU
+Lithuania,plastic bag,thousand units,2018,0.84,47.02,EU
+Luxembourg,textile bag,number,2018,0.0,,EU
+Luxembourg,paper bag,kilograms,2018,0.015433070866141731,375.285,EU
+Luxembourg,plastic bag,thousand units,2018,0.01,344.5,EU
+Malta,paper bag,kilograms,2018,0.05070866141732284,9713.595,EU
+Netherlands,textile bag,number,2018,0.00792,13990.0,EU
+Netherlands,paper bag,kilograms,2018,134.75448818897638,174.625,EU
+Netherlands,plastic bag,thousand units,2018,159.35,24.64,EU
+Poland,textile bag,number,2018,2.00374,20.0,EU
+Poland,paper bag,kilograms,2018,52.317480314960626,330.835,EU
+Poland,plastic bag,thousand units,2018,28.61,39.22,EU
+Portugal,textile bag,number,2018,0.08796999999999999,2870.0,EU
+Portugal,paper bag,kilograms,2018,15.363937007874016,202.565,EU
+Portugal,plastic bag,thousand units,2018,2.25,98.0,EU
+Romania,textile bag,number,2018,0.00015,95130.0,EU
+Romania,paper bag,kilograms,2018,0.597007874015748,312.42,EU
+Romania,plastic bag,thousand units,2018,0.03,476.62,EU
+Slovakia,textile bag,number,2018,0.0001,112210.0,EU
+Slovakia,paper bag,kilograms,2018,1.800787401574803,562.61,EU
+Slovakia,plastic bag,thousand units,2018,2.1,41.97,EU
+Slovenia,textile bag,number,2018,0.001,2240.0,EU
+Slovenia,paper bag,kilograms,2018,0.08125984251968504,511.81000000000006,EU
+Slovenia,plastic bag,thousand units,2018,0.13,1001.41,EU
+Spain,textile bag,number,2018,0.07031,5900.0,EU
+Spain,paper bag,kilograms,2018,184.74818897637795,215.9,EU
+Spain,plastic bag,thousand units,2018,1348.17,6.16,EU
+Sweden,textile bag,number,2018,0.0014399999999999999,36960.0,EU
+Sweden,paper bag,kilograms,2018,26.88456692913386,236.855,EU
+Sweden,plastic bag,thousand units,2018,15.44,90.51,EU
+Austria,textile bag,number,2019,0.00492,5550.0,EU
+Austria,paper bag,kilograms,2019,25.05291338582677,205.74,EU
+Austria,plastic bag,thousand units,2019,1.49,465.29,EU
+Belgium,textile bag,number,2019,0.009970000000000001,12700.0,EU
+Belgium,paper bag,kilograms,2019,41.17858267716536,304.165,EU
+Belgium,plastic bag,thousand units,2019,425.24,3.97,EU
+Bulgaria,textile bag,number,2019,0.00069,5470.0,EU
+Bulgaria,paper bag,kilograms,2019,0.028818897637795278,2223.1349999999998,EU
+Bulgaria,plastic bag,thousand units,2019,2.51,12.28,EU
+China,textile bag,number,2019,189.97245,2880.0,China
+China,paper bag,kilograms,2019,2480.509448818898,212.725,China
+China,plastic bag,thousand units,2019,64355.54,8.85,China
+Croatia,textile bag,number,2019,0.0,,EU
+Croatia,paper bag,kilograms,2019,0.3011023622047244,93.345,EU
+Croatia,plastic bag,thousand units,2019,9.86,3.83,EU
+Cyprus,paper bag,kilograms,2019,0.19401574803149607,497.205,EU
+Cyprus,plastic bag,thousand units,2019,0.03,28.52,EU
+Czech Republic,textile bag,number,2019,0.004019999999999999,4670.0,EU
+Czech Republic,paper bag,kilograms,2019,9.224724409448818,217.17,EU
+Czech Republic,plastic bag,thousand units,2019,10.61,26.37,EU
+Denmark,textile bag,number,2019,0.00127,17550.0,EU
+Denmark,paper bag,kilograms,2019,8.479685039370079,302.26,EU
+Denmark,plastic bag,thousand units,2019,101.97,6.22,EU
+Estonia,textile bag,number,2019,0.0103,151560.0,EU
+Estonia,paper bag,kilograms,2019,0.0,203962.0,EU
+Estonia,plastic bag,thousand units,2019,0.0,,EU
+Finland,textile bag,number,2019,8.999999999999999e-05,44630.0,EU
+Finland,paper bag,kilograms,2019,43.30110236220472,178.435,EU
+Finland,plastic bag,thousand units,2019,2.71,119.92,EU
+France,textile bag,number,2019,0.08609,8260.0,EU
+France,paper bag,kilograms,2019,146.73448818897637,261.62,EU
+France,plastic bag,thousand units,2019,301.71,36.2,EU
+Germany,textile bag,number,2019,0.0773,8010.0,EU
+Germany,paper bag,kilograms,2019,1118.5511811023623,233.045,EU
+Germany,plastic bag,thousand units,2019,1131.29,29.87,EU
+Greece,textile bag,number,2019,0.00016,15150.0,EU
+Greece,paper bag,kilograms,2019,1.7609448818897637,232.41,EU
+Greece,plastic bag,thousand units,2019,33.84,5.86,EU
+Hungary,textile bag,number,2019,0.00062,28550.0,EU
+Hungary,paper bag,kilograms,2019,2.282047244094488,297.815,EU
+Hungary,plastic bag,thousand units,2019,6.48,6.28,EU
+India,textile bag,number,2019,2.7636700000000003,1520.0,India
+India,paper bag,kilograms,2019,162.79401574803148,156.21,India
+India,plastic bag,thousand units,2019,10322.68,8.14,India
+Ireland,textile bag,number,2019,0.00764,21440.0,EU
+Ireland,paper bag,kilograms,2019,1.6015748031496064,257.81,EU
+Ireland,plastic bag,thousand units,2019,149.15,5.45,EU
+Italy,textile bag,number,2019,0.08397,25480.0,EU
+Italy,paper bag,kilograms,2019,182.07905511811023,223.52,EU
+Italy,plastic bag,thousand units,2019,159.24,11.1,EU
+Latvia,textile bag,number,2019,2.9999999999999997e-05,189070.0,EU
+Latvia,paper bag,kilograms,2019,0.0662992125984252,1657.985,EU
+Latvia,plastic bag,thousand units,2019,0.0,,EU
+Lithuania,textile bag,number,2019,0.00016,17190.0,EU
+Lithuania,paper bag,kilograms,2019,0.09732283464566929,694.055,EU
+Lithuania,plastic bag,thousand units,2019,0.0,,EU
+Luxembourg,textile bag,number,2019,0.0,,EU
+Luxembourg,paper bag,kilograms,2019,0.20031496062992127,147.32,EU
+Luxembourg,plastic bag,thousand units,2019,0.05,146.43,EU
+Malta,paper bag,kilograms,2019,0.12992125984251968,5753.099999999999,EU
+Netherlands,textile bag,number,2019,0.0039700000000000004,22360.0,EU
+Netherlands,paper bag,kilograms,2019,133.08551181102362,189.865,EU
+Netherlands,plastic bag,thousand units,2019,67.14,47.77,EU
+Poland,textile bag,number,2019,0.00517,8560.0,EU
+Poland,paper bag,kilograms,2019,97.33685039370079,237.49,EU
+Poland,plastic bag,thousand units,2019,23.7,53.55,EU
+Portugal,textile bag,number,2019,0.00653,6700.0,EU
+Portugal,paper bag,kilograms,2019,26.599999999999998,174.625,EU
+Portugal,plastic bag,thousand units,2019,31.79,8.84,EU
+Romania,textile bag,number,2019,0.00377,9620.0,EU
+Romania,paper bag,kilograms,2019,0.4825196850393701,147.955,EU
+Romania,plastic bag,thousand units,2019,0.13,124.93,EU
+Slovakia,textile bag,number,2019,4e-05,82680.0,EU
+Slovakia,paper bag,kilograms,2019,0.9700787401574803,154.305,EU
+Slovakia,plastic bag,thousand units,2019,3.8,39.23,EU
+Slovenia,textile bag,number,2019,2e-05,62050.0,EU
+Slovenia,paper bag,kilograms,2019,0.31748031496062995,479.425,EU
+Slovenia,plastic bag,thousand units,2019,21.14,5.85,EU
+Spain,textile bag,number,2019,0.18428999999999998,4560.0,EU
+Spain,paper bag,kilograms,2019,385.3903937007874,160.655,EU
+Spain,plastic bag,thousand units,2019,666.22,7.4,EU
+Sweden,textile bag,number,2019,0.004059999999999999,5340.0,EU
+Sweden,paper bag,kilograms,2019,47.7163779527559,184.785,EU
+Sweden,plastic bag,thousand units,2019,39.4,28.88,EU
+Austria,textile bag,number,2020,0.0015,8070.0,EU
+Austria,paper bag,kilograms,2020,30.872598425196852,173.99,EU
+Austria,plastic bag,thousand units,2020,317.59,2.9,EU
+Belgium,textile bag,number,2020,0.0034500000000000004,11530.0,EU
+Belgium,paper bag,kilograms,2020,17.13196850393701,659.765,EU
+Belgium,plastic bag,thousand units,2020,37.02,58.26,EU
+Bulgaria,textile bag,number,2020,0.0008900000000000001,23780.0,EU
+Bulgaria,paper bag,kilograms,2020,0.07874015748031496,621.03,EU
+Bulgaria,plastic bag,thousand units,2020,1.28,10.35,EU
+China,textile bag,number,2020,137.56989000000002,2680.0,China
+China,paper bag,kilograms,2020,1902.3425196850394,198.755,China
+China,plastic bag,thousand units,2020,75396.38,8.16,China
+Croatia,textile bag,number,2020,0.00103,22720.0,EU
+Croatia,paper bag,kilograms,2020,0.0,,EU
+Croatia,plastic bag,thousand units,2020,0.02,2242.88,EU
+Cyprus,paper bag,kilograms,2020,0.14724409448818898,470.535,EU
+Cyprus,plastic bag,thousand units,2020,0.0,,EU
+Czech Republic,textile bag,number,2020,0.00847,9030.0,EU
+Czech Republic,paper bag,kilograms,2020,2.81763779527559,221.615,EU
+Czech Republic,plastic bag,thousand units,2020,0.91,272.83,EU
+Denmark,textile bag,number,2020,0.00126,13460.0,EU
+Denmark,paper bag,kilograms,2020,3.7543307086614175,430.53000000000003,EU
+Denmark,plastic bag,thousand units,2020,3.06,132.02,EU
+Estonia,textile bag,number,2020,0.00608,221380.0,EU
+Estonia,paper bag,kilograms,2020,0.00047244094488188977,480.06,EU
+Estonia,plastic bag,thousand units,2020,0.02,12.0,EU
+Finland,textile bag,number,2020,0.00025,79980.0,EU
+Finland,paper bag,kilograms,2020,62.582519685039365,158.115,EU
+Finland,plastic bag,thousand units,2020,53.16,8.74,EU
+France,textile bag,number,2020,0.051840000000000004,147150.0,EU
+France,paper bag,kilograms,2020,134.17228346456693,255.26999999999998,EU
+France,plastic bag,thousand units,2020,544.61,36.47,EU
+Germany,textile bag,number,2020,0.16054,3820.0,EU
+Germany,paper bag,kilograms,2020,1110.6525984251969,222.25,EU
+Germany,plastic bag,thousand units,2020,1387.25,33.46,EU
+Greece,textile bag,number,2020,0.0,,EU
+Greece,paper bag,kilograms,2020,2.9513385826771654,307.34,EU
+Greece,plastic bag,thousand units,2020,1.5,7.54,EU
+Hungary,textile bag,number,2020,0.00020999999999999998,32330.0,EU
+Hungary,paper bag,kilograms,2020,3.515748031496063,394.96999999999997,EU
+Hungary,plastic bag,thousand units,2020,0.99,34.51,EU
+India,textile bag,number,2020,1.52731,2140.0,India
+India,paper bag,kilograms,2020,238.93259842519683,127.63499999999999,India
+India,plastic bag,thousand units,2020,9320.65,7.93,India
+Ireland,textile bag,number,2020,0.00017999999999999998,2000.0,EU
+Ireland,paper bag,kilograms,2020,28.873385826771653,111.76,EU
+Ireland,plastic bag,thousand units,2020,332.34,2.14,EU
+Italy,textile bag,number,2020,0.08763,26920.0,EU
+Italy,paper bag,kilograms,2020,177.20629921259842,220.98,EU
+Italy,plastic bag,thousand units,2020,201.8,7.52,EU
+Latvia,textile bag,number,2020,0.0006,29420.0,EU
+Latvia,paper bag,kilograms,2020,0.04566929133858268,1670.685,EU
+Latvia,plastic bag,thousand units,2020,0.0,,EU
+Lithuania,textile bag,number,2020,0.00025,15460.0,EU
+Lithuania,paper bag,kilograms,2020,0.20393700787401572,708.66,EU
+Lithuania,plastic bag,thousand units,2020,0.0,280.0,EU
+Luxembourg,textile bag,number,2020,0.0,,EU
+Luxembourg,paper bag,kilograms,2020,0.10314960629921259,612.775,EU
+Luxembourg,plastic bag,thousand units,2020,0.0,,EU
+Malta,paper bag,kilograms,2020,0.6141732283464567,1060.45,EU
+Netherlands,textile bag,number,2020,0.00992,5040.0,EU
+Netherlands,paper bag,kilograms,2020,147.78787401574803,166.37,EU
+Netherlands,plastic bag,thousand units,2020,145.65,20.82,EU
+Poland,textile bag,number,2020,0.00349,33760.0,EU
+Poland,paper bag,kilograms,2020,135.48818897637796,210.185,EU
+Poland,plastic bag,thousand units,2020,22.48,51.76,EU
+Portugal,textile bag,number,2020,0.0030499999999999998,11900.0,EU
+Portugal,paper bag,kilograms,2020,69.45937007874016,150.495,EU
+Portugal,plastic bag,thousand units,2020,16.71,40.55,EU
+Romania,textile bag,number,2020,0.00605,24350.0,EU
+Romania,paper bag,kilograms,2020,1.9636220472440944,98.425,EU
+Romania,plastic bag,thousand units,2020,3.1,1.7,EU
+Slovakia,textile bag,number,2020,0.0,,EU
+Slovakia,paper bag,kilograms,2020,0.002204724409448819,1577.34,EU
+Slovakia,plastic bag,thousand units,2020,2.61,128.1,EU
+Slovenia,textile bag,number,2020,0.0,128000.0,EU
+Slovenia,paper bag,kilograms,2020,0.13889763779527559,454.02500000000003,EU
+Slovenia,plastic bag,thousand units,2020,38.51,5.33,EU
+Spain,textile bag,number,2020,0.054700000000000006,28570.0,EU
+Spain,paper bag,kilograms,2020,394.74866141732286,149.85999999999999,EU
+Spain,plastic bag,thousand units,2020,594.23,9.02,EU
+Sweden,textile bag,number,2020,0.00125,21610.0,EU
+Sweden,paper bag,kilograms,2020,37.69055118110236,234.95000000000002,EU
+Sweden,plastic bag,thousand units,2020,148.02,24.3,EU
