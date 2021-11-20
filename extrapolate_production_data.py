@@ -47,9 +47,9 @@ class ProductionData:
         carrier_bags = self.us_baseline_df.loc[self.us_baseline_df["Category"] == "Carrier_bags"]
 
         if(product_type == "Plastic"):
-            gwp = (carrier_bags["Plastic_warming_potential"]/carrier_bags["Plastic_weight"])*kg_per_plastic_bag/1000
+            gwp = (carrier_bags["Plastic_warming_potential"]/carrier_bags["Plastic_weight"])*kg_per_plastic_bag*1000
         elif(product_type == "Alternative"):
-            gwp = (carrier_bags["Alternative_warming_potential"]/carrier_bags["Alternative_weight"])*kg_per_alternative_bag/1000
+            gwp = (carrier_bags["Alternative_warming_potential"]/carrier_bags["Alternative_weight"])*kg_per_alternative_bag*1000
         else:
             raise Exception("Invalid product type. Please select Plastic or Alternative.")
 
