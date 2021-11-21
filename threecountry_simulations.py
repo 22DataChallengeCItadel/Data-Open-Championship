@@ -90,7 +90,11 @@ pd.DataFrame(
         & (trade_flows_country["income_id"].isin(["LMC", "LIC"])),
     ]
     .groupby(["Year"])
-    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
+    .agg(
+        sum_qty_in_thousands=pd.NamedAgg(
+            column="qty_in_thousands", aggfunc=sum
+        )
+    )
 )
 # Three-country model
 ## 14 unknowns: P_LIC, P1_LIC, P_MIC, P1_MIC, P_HIC, P1_HIC, P_DOM, P1_DOM, Q_LIC, Q1_LIC, Q_MIC, Q1_MIC, Q_HIC, Q1_HIC
@@ -99,7 +103,7 @@ pd.DataFrame(
 # Stuff below needs to change to include all countries
 Q_US = trade_flows_total.loc[
     (trade_flows_total["product"] == "plastic bag"),
-    "qty_thousands",
+    "qty_in_thousands",
 ].to_list()
 
 Q_IN = pd.DataFrame(
@@ -108,8 +112,12 @@ Q_IN = pd.DataFrame(
         & (trade_flows_country["income_id"].isin(["LMC", "LIC"])),
     ]
     .groupby(["Year"])
-    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
-)["sum_qty_thousands"].tolist()
+    .agg(
+        sum_qty_in_thousands=pd.NamedAgg(
+            column="qty_in_thousands", aggfunc=sum
+        )
+    )
+)["sum_qty_in_thousands"].tolist()
 
 Q_PAP_IN = pd.DataFrame(
     trade_flows_country.loc[
@@ -117,8 +125,12 @@ Q_PAP_IN = pd.DataFrame(
         & (trade_flows_country["income_id"].isin(["LMC", "LIC"])),
     ]
     .groupby(["Year"])
-    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
-)["sum_qty_thousands"].tolist()
+    .agg(
+        sum_qty_in_thousands=pd.NamedAgg(
+            column="qty_in_thousands", aggfunc=sum
+        )
+    )
+)["sum_qty_in_thousands"].tolist()
 
 Q_TEX_IN = pd.DataFrame(
     trade_flows_country.loc[
@@ -126,8 +138,12 @@ Q_TEX_IN = pd.DataFrame(
         & (trade_flows_country["income_id"].isin(["LMC", "LIC"])),
     ]
     .groupby(["Year"])
-    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
-)["sum_qty_thousands"].tolist()
+    .agg(
+        sum_qty_in_thousands=pd.NamedAgg(
+            column="qty_in_thousands", aggfunc=sum
+        )
+    )
+)["sum_qty_in_thousands"].tolist()
 
 Q_CN = pd.DataFrame(
     trade_flows_country.loc[
@@ -135,8 +151,12 @@ Q_CN = pd.DataFrame(
         & (trade_flows_country["income_id"] == "UMC"),
     ]
     .groupby(["Year"])
-    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
-)["sum_qty_thousands"].tolist()
+    .agg(
+        sum_qty_in_thousands=pd.NamedAgg(
+            column="qty_in_thousands", aggfunc=sum
+        )
+    )
+)["sum_qty_in_thousands"].tolist()
 
 Q_PAP_CN = pd.DataFrame(
     trade_flows_country.loc[
@@ -144,8 +164,12 @@ Q_PAP_CN = pd.DataFrame(
         & (trade_flows_country["income_id"] == "UMC"),
     ]
     .groupby(["Year"])
-    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
-)["sum_qty_thousands"].tolist()
+    .agg(
+        sum_qty_in_thousands=pd.NamedAgg(
+            column="qty_in_thousands", aggfunc=sum
+        )
+    )
+)["sum_qty_in_thousands"].tolist()
 
 Q_TEX_CN = pd.DataFrame(
     trade_flows_country.loc[
@@ -153,8 +177,12 @@ Q_TEX_CN = pd.DataFrame(
         & (trade_flows_country["income_id"] == "UMC"),
     ]
     .groupby(["Year"])
-    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
-)["sum_qty_thousands"].tolist()
+    .agg(
+        sum_qty_in_thousands=pd.NamedAgg(
+            column="qty_in_thousands", aggfunc=sum
+        )
+    )
+)["sum_qty_in_thousands"].tolist()
 
 Q_DE = pd.DataFrame(
     trade_flows_country.loc[
@@ -162,8 +190,12 @@ Q_DE = pd.DataFrame(
         & (trade_flows_country["income_id"] == "HIC"),
     ]
     .groupby(["Year"])
-    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
-)["sum_qty_thousands"].tolist()
+    .agg(
+        sum_qty_in_thousands=pd.NamedAgg(
+            column="qty_in_thousands", aggfunc=sum
+        )
+    )
+)["sum_qty_in_thousands"].tolist()
 
 Q_PAP_DE = pd.DataFrame(
     trade_flows_country.loc[
@@ -171,8 +203,12 @@ Q_PAP_DE = pd.DataFrame(
         & (trade_flows_country["income_id"] == "HIC"),
     ]
     .groupby(["Year"])
-    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
-)["sum_qty_thousands"].tolist()
+    .agg(
+        sum_qty_in_thousands=pd.NamedAgg(
+            column="qty_in_thousands", aggfunc=sum
+        )
+    )
+)["sum_qty_in_thousands"].tolist()
 
 Q_TEX_DE = pd.DataFrame(
     trade_flows_country.loc[
@@ -180,8 +216,12 @@ Q_TEX_DE = pd.DataFrame(
         & (trade_flows_country["income_id"] == "HIC"),
     ]
     .groupby(["Year"])
-    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
-)["sum_qty_thousands"].tolist()
+    .agg(
+        sum_qty_in_thousands=pd.NamedAgg(
+            column="qty_in_thousands", aggfunc=sum
+        )
+    )
+)["sum_qty_in_thousands"].tolist()
 
 ## Solution: Three country
 def simulation_threecountry(
@@ -415,4 +455,169 @@ print((results["plastic_change"] > 0).mean())
 sns.distplot(results["plastic_change"])
 plt.axvline(results["plastic_change"].median(), 0, 2, color="red")
 plt.savefig("figs/simulations/plastic_increase_amount_3c.png", dpi=400)
+plt.clf()
+
+# Change in non-plastic quantity
+print(results["non_plastic_change"].median())
+print(results["non_plastic_change"].median() / results["Q1_US"].mean())
+print((results["non_plastic_change"] > 0).mean())
+
+sns.distplot(results["non_plastic_change"])
+plt.axvline(results["non_plastic_change"].median(), 0, 10, color="red")
+plt.savefig("figs/simulations/non_plastic_increase_amount_3c.png", dpi=400)
+plt.clf()
+
+# Change in plastic bag price
+print(results["P_DOM"].median())
+print(results["P_US"].median())
+
+# Change in non-plastic bag price
+print(results["P1_DOM"].median())
+print(results["P1_US"].median())
+
+## Change in plastic quantity: LIC
+results["plastic_change_LIC"] = results["Q_LIC"] - results["Q_IN"]
+print(results["plastic_change_LIC"].median())
+print(results["plastic_change_LIC"].median() / results["Q_IN"].mean())
+print((results["plastic_change_LIC"] > 0).mean())
+
+sns.distplot(results["plastic_change_LIC"])
+plt.axvline(results["plastic_change_LIC"].median(), 0, 2, color="red")
+plt.savefig("figs/simulations/plastic_increase_amount_LIC.png", dpi=400)
+plt.clf()
+
+results["P_change_LIC"] = results["P_LIC"] - results["P_US"]
+print(results["P_change_LIC"].median())
+print(results["P_change_LIC"].median() / results["P_US"].mean())
+print((results["P_change_LIC"] > 0).mean())
+
+sns.distplot(results["P_change_LIC"])
+plt.axvline(results["P_change_LIC"].median(), 0, 2, color="red")
+plt.xlabel("Price change (LIC)")
+plt.savefig("figs/simulations/P_increase_amount_LIC.png", dpi=400)
+plt.clf()
+
+## Change in plastic quantity: MIC
+results["plastic_change_MIC"] = results["Q_MIC"] - results["Q_CN"]
+print(results["plastic_change_MIC"].median())
+print(results["plastic_change_MIC"].median() / results["Q_IN"].mean())
+print((results["plastic_change_MIC"] > 0).mean())
+
+sns.distplot(results["plastic_change_MIC"])
+plt.axvline(results["plastic_change_MIC"].median(), 0, 2, color="red")
+plt.savefig("figs/simulations/plastic_increase_amount_MIC.png", dpi=400)
+plt.clf()
+
+results["P_change_MIC"] = results["P_MIC"] - results["P_US"]
+print(results["P_change_MIC"].median())
+print(results["P_change_MIC"].median() / results["P_US"].mean())
+print((results["P_change_MIC"] > 0).mean())
+
+sns.distplot(results["P_change_MIC"])
+plt.axvline(results["P_change_MIC"].median(), 0, 2, color="red")
+plt.xlabel("Price change (MIC)")
+plt.savefig("figs/simulations/P_increase_amount_MIC.png", dpi=400)
+plt.clf()
+
+## Change in plastic quantity: HIC
+results["plastic_change_HIC"] = results["Q_HIC"] - results["Q_DE"]
+print(results["plastic_change_HIC"].median())
+print(results["plastic_change_HIC"].median() / results["Q_IN"].mean())
+print((results["plastic_change_HIC"] > 0).mean())
+
+sns.distplot(results["plastic_change_HIC"])
+plt.axvline(results["plastic_change_HIC"].median(), 0, 2, color="red")
+plt.savefig("figs/simulations/plastic_increase_amount_HIC.png", dpi=400)
+plt.clf()
+
+results["P_change_HIC"] = results["P_HIC"] - results["P_US"]
+print(results["P_change_HIC"].median())
+print(results["P_change_HIC"].median() / results["P_US"].mean())
+print((results["P_change_HIC"] > 0).mean())
+
+sns.distplot(results["P_change_HIC"])
+plt.axvline(results["P_change_HIC"].median(), 0, 2, color="red")
+plt.xlabel("Price change (HIC)")
+plt.savefig("figs/simulations/P_increase_amount_HIC.png", dpi=400)
+plt.clf()
+
+## Change in non-plastic quantity: LIC
+results["non_plastic_change_LIC"] = (
+    results["Q1_LIC"] - results["Q_PAP_IN"] - results["Q_TEX_IN"]
+)
+print(results["non_plastic_change_LIC"].median())
+print(
+    results["non_plastic_change_LIC"].median()
+    / (results["Q_PAP_IN"].mean() + results["Q_TEX_IN"].mean())
+)
+print((results["non_plastic_change_LIC"] > 0).mean())
+
+sns.distplot(results["non_plastic_change_LIC"])
+plt.axvline(results["non_plastic_change_LIC"].median(), 0, 2, color="red")
+plt.savefig("figs/simulations/non_plastic_increase_amount_LIC.png", dpi=400)
+plt.clf()
+
+results["P1_change_LIC"] = results["P1_LIC"] - results["P1_US"]
+print(results["P1_change_LIC"].median())
+print(results["P1_change_LIC"].median() / results["P_US"].mean())
+print((results["P1_change_LIC"] > 0).mean())
+
+sns.distplot(results["P1_change_LIC"])
+plt.axvline(results["P1_change_LIC"].median(), 0, 2, color="red")
+plt.xlabel("Price change (LIC)")
+plt.savefig("figs/simulations/P1_increase_amount_LIC.png", dpi=400)
+plt.clf()
+
+## Change in non-plastic quantity: MIC
+results["non_plastic_change_MIC"] = (
+    results["Q1_MIC"] - results["Q_PAP_CN"] - results["Q_TEX_CN"]
+)
+print(results["non_plastic_change_MIC"].median())
+print(
+    results["non_plastic_change_MIC"].median()
+    / (results["Q_PAP_CN"].mean() + results["Q_TEX_CN"].mean())
+)
+print((results["non_plastic_change_MIC"] > 0).mean())
+
+sns.distplot(results["non_plastic_change_MIC"])
+plt.axvline(results["non_plastic_change_MIC"].median(), 0, 2, color="red")
+plt.savefig("figs/simulations/non_plastic_increase_amount_MIC.png", dpi=400)
+plt.clf()
+
+results["P1_change_MIC"] = results["P1_MIC"] - results["P1_US"]
+print(results["P1_change_MIC"].median())
+print(results["P1_change_MIC"].median() / results["P_US"].mean())
+print((results["P1_change_MIC"] > 0).mean())
+
+sns.distplot(results["P1_change_MIC"])
+plt.axvline(results["P1_change_MIC"].median(), 0, 2, color="red")
+plt.xlabel("Price change (MIC)")
+plt.savefig("figs/simulations/P1_increase_amount_MIC.png", dpi=400)
+plt.clf()
+
+## Change in non-plastic quantity: HIC
+results["non_plastic_change_HIC"] = (
+    results["Q1_HIC"] - results["Q_PAP_DE"] - results["Q_TEX_DE"]
+)
+print(results["non_plastic_change_HIC"].median())
+print(
+    results["non_plastic_change_HIC"].median()
+    / (results["Q_PAP_DE"].mean() + results["Q_TEX_DE"].mean())
+)
+print((results["non_plastic_change_HIC"] > 0).mean())
+
+sns.distplot(results["non_plastic_change_HIC"])
+plt.axvline(results["non_plastic_change_HIC"].median(), 0, 2, color="red")
+plt.savefig("figs/simulations/non_plastic_increase_amount_HIC.png", dpi=400)
+plt.clf()
+
+results["P1_change_HIC"] = results["P1_HIC"] - results["P1_US"]
+print(results["P1_change_HIC"].median())
+print(results["P1_change_HIC"].median() / results["P_US"].mean())
+print((results["P1_change_HIC"] > 0).mean())
+
+sns.distplot(results["P1_change_HIC"])
+plt.axvline(results["P1_change_HIC"].median(), 0, 2, color="red")
+plt.xlabel("Price change (HIC)")
+plt.savefig("figs/simulations/P1_increase_amount_HIC.png", dpi=400)
 plt.clf()
