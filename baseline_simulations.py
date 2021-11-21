@@ -178,7 +178,9 @@ print((results["plastic_change"] > 0).mean())
 sns.distplot(results["plastic_change"])
 plt.axvline(results["plastic_change"].median(), 0, 2, color="red")
 plt.savefig("figs/simulations/plastic_increase_amount.png", dpi=400)
+# plt.show()
 plt.clf()
+
 
 # Change in non-plastic quantity
 print(results["non_plastic_change"].median())
@@ -187,7 +189,10 @@ print((results["non_plastic_change"] > 0).mean())
 
 sns.distplot(results["non_plastic_change"])
 plt.axvline(results["non_plastic_change"].median(), 0, 10, color="red")
+plt.xticks([-4*10**6,-3.5*10**6, -3*10**6,-2.5*10**6, -2*10**6,-1.5*10**6, -1*10**6, -0.5*10**6],\
+           ['-4M', '-3.5M','-3M','-2.5M', '-2M', '-1.5M','-1M','-0.5M'])
 plt.savefig("figs/simulations/non_plastic_increase_amount.png", dpi=400)
+# plt.show()
 plt.clf()
 
 # Change in plastic bag price
@@ -207,16 +212,23 @@ np.average(
 
 ax = sns.scatterplot(x=results["e1"], y=results["plastic_change"], alpha=0.1)
 ax.set(xlabel="e", ylabel="Change in plastic bag import")
+plt.yticks([-5*10**6,0,5*10**6,10*10**6,15*10**6, 20*10**6], ['-5M', '0M','5M','10M','15M', '20M'])
+# plt.show()
 plt.savefig("figs/simulations/plastic_change_e1.png", dpi=400)
 plt.clf()
 
+
 ax = sns.scatterplot(x=results["e2"], y=results["plastic_change"], alpha=0.1)
 ax.set(xlabel="e'", ylabel="Change in plastic bag import")
+plt.yticks([-5*10**6,0,5*10**6,10*10**6,15*10**6, 20*10**6], ['-5M', '0M','5M','10M','15M', '20M'])
+# plt.show()
 plt.savefig("figs/simulations/plastic_change_e2.png", dpi=400)
 plt.clf()
 
 ax = sns.scatterplot(x=results["eta1"], y=results["plastic_change"], alpha=0.1)
 ax.set(xlabel="eta", ylabel="Change in plastic bag import")
+plt.yticks([-5*10**6,0,5*10**6,10*10**6,15*10**6, 20*10**6], ['-5M', '0M','5M','10M','15M', '20M'])
+# plt.show()
 plt.savefig("figs/simulations/plastic_change_eta1.png", dpi=400)
 plt.clf()
 
@@ -289,5 +301,8 @@ ax = sns.regplot(
     scatter_kws={"alpha": 0.1},
     line_kws={"color": "red"},
 )
+plt.yticks([-1*10**7,0,1*10**7,2*10**7,3*10**7, 4*10**7], ['-10M', '0M','10M','20M','30M', '40M'])
+plt.xticks([70,80,90,100,110,120], ['70%','80%','90%','100%','110%','120%'])
+# plt.show()
 plt.savefig("figs/simulations/plastic_change_R.png", dpi=400)
 plt.clf()
