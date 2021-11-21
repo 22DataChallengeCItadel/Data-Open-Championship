@@ -83,6 +83,9 @@ P_US = 0.01 * 1000
 P_PAP_US = 0.02 * 1000
 P_TEX_US = 0.1 * 1000
 
+trade_flows_country = trade_flows_country.rename(columns ={'qty_in_thousands':'qty_thousands'})
+trade_flows_total = trade_flows_total.rename(columns ={'qty_in_thousands':'qty_thousands'})
+
 # Aggregate data by income levels
 pd.DataFrame(
     trade_flows_country.loc[
@@ -454,6 +457,8 @@ print((results["plastic_change"] > 0).mean())
 
 sns.distplot(results["plastic_change"])
 plt.axvline(results["plastic_change"].median(), 0, 2, color="red")
+plt.xticks([-10*10**6,-5*10**6,0,5*10**6,10*10**6,15*10**6, 20*10**6,25*10**6], ['-10M','-5M','0M','5M','10M','15M','20M','25M'])
+# plt.show()
 plt.savefig("figs/simulations/plastic_increase_amount_3c.png", dpi=400)
 plt.clf()
 
