@@ -11,6 +11,12 @@ import matplotlib.pyplot as plt
 ## Trade data
 trade_flows_country = pd.read_csv("Data/trade_flow_data_all_country.csv")
 trade_flows_total = pd.read_csv("Data/trade_flow_data_total.csv")
+trade_flows_country = trade_flows_country.rename(
+    columns={"qty_in_thousands": "qty_thousands"}
+)
+trade_flows_total = trade_flows_total.rename(
+    columns={"qty_in_thousands": "qty_thousands"}
+)
 
 ## Carbon tariff data
 R = TariffData().get_mean_price()
@@ -39,17 +45,17 @@ P_TEX_US = 0.1 * 1000
 
 Q_US = trade_flows_total.loc[
     (trade_flows_total["product"] == "plastic bag"),
-    "qty_in_thousands",
+    "qty_thousands",
 ].to_list()
 
 Q_PAP_US = trade_flows_total.loc[
     (trade_flows_total["product"] == "paper bag"),
-    "qty_in_thousands",
+    "qty_thousands",
 ].to_list()
 
 Q_TEX_US = trade_flows_total.loc[
     (trade_flows_total["product"] == "textile bag"),
-    "qty_in_thousands",
+    "qty_thousands",
 ].to_list()
 
 # Set elasticity parameters
@@ -174,6 +180,9 @@ results["CO2_change"] = (
     + results["plastic_change"] * C_world
 )
 
+results["current_CO2"] = (
+    results["Q1_US"] * C1_world + results["Q_US"] * C_world
+)
 # Visualizations
 ## Change in plastic quantity
 print(results["plastic_change"].median())
@@ -255,6 +264,17 @@ plt.yticks(
 )
 # plt.show()
 plt.savefig("figs/simulations/plastic_change_eta1.png", dpi=400)
+plt.clf()
+
+## Change in CO2 emission quantity
+print(results["CO2_change"].median())
+print((results["CO2_change"] > 0).mean())
+print(results["CO2_change"].median() / results["current_CO2"].mean())
+
+sns.distplot(results["CO2_change"])
+plt.axvline(results["CO2_change"].median(), 0, 2, color="red")
+plt.savefig("figs/simulations/CO2_change.png", dpi=400)
+# plt.show()
 plt.clf()
 
 # New simulation: change in R
