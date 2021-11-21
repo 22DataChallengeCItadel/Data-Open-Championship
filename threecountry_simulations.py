@@ -83,8 +83,12 @@ P_US = 0.01 * 1000
 P_PAP_US = 0.02 * 1000
 P_TEX_US = 0.1 * 1000
 
-trade_flows_country = trade_flows_country.rename(columns ={'qty_in_thousands':'qty_thousands'})
-trade_flows_total = trade_flows_total.rename(columns ={'qty_in_thousands':'qty_thousands'})
+trade_flows_country = trade_flows_country.rename(
+    columns={"qty_in_thousands": "qty_thousands"}
+)
+trade_flows_total = trade_flows_total.rename(
+    columns={"qty_in_thousands": "qty_thousands"}
+)
 
 # Aggregate data by income levels
 pd.DataFrame(
@@ -93,11 +97,7 @@ pd.DataFrame(
         & (trade_flows_country["income_id"].isin(["LMC", "LIC"])),
     ]
     .groupby(["Year"])
-    .agg(
-        sum_qty_in_thousands=pd.NamedAgg(
-            column="qty_in_thousands", aggfunc=sum
-        )
-    )
+    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
 )
 # Three-country model
 ## 14 unknowns: P_LIC, P1_LIC, P_MIC, P1_MIC, P_HIC, P1_HIC, P_DOM, P1_DOM, Q_LIC, Q1_LIC, Q_MIC, Q1_MIC, Q_HIC, Q1_HIC
@@ -106,7 +106,7 @@ pd.DataFrame(
 # Stuff below needs to change to include all countries
 Q_US = trade_flows_total.loc[
     (trade_flows_total["product"] == "plastic bag"),
-    "qty_in_thousands",
+    "qty_thousands",
 ].to_list()
 
 Q_IN = pd.DataFrame(
@@ -115,12 +115,8 @@ Q_IN = pd.DataFrame(
         & (trade_flows_country["income_id"].isin(["LMC", "LIC"])),
     ]
     .groupby(["Year"])
-    .agg(
-        sum_qty_in_thousands=pd.NamedAgg(
-            column="qty_in_thousands", aggfunc=sum
-        )
-    )
-)["sum_qty_in_thousands"].tolist()
+    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
+)["sum_qty_thousands"].tolist()
 
 Q_PAP_IN = pd.DataFrame(
     trade_flows_country.loc[
@@ -128,12 +124,8 @@ Q_PAP_IN = pd.DataFrame(
         & (trade_flows_country["income_id"].isin(["LMC", "LIC"])),
     ]
     .groupby(["Year"])
-    .agg(
-        sum_qty_in_thousands=pd.NamedAgg(
-            column="qty_in_thousands", aggfunc=sum
-        )
-    )
-)["sum_qty_in_thousands"].tolist()
+    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
+)["sum_qty_thousands"].tolist()
 
 Q_TEX_IN = pd.DataFrame(
     trade_flows_country.loc[
@@ -141,12 +133,8 @@ Q_TEX_IN = pd.DataFrame(
         & (trade_flows_country["income_id"].isin(["LMC", "LIC"])),
     ]
     .groupby(["Year"])
-    .agg(
-        sum_qty_in_thousands=pd.NamedAgg(
-            column="qty_in_thousands", aggfunc=sum
-        )
-    )
-)["sum_qty_in_thousands"].tolist()
+    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
+)["sum_qty_thousands"].tolist()
 
 Q_CN = pd.DataFrame(
     trade_flows_country.loc[
@@ -154,12 +142,8 @@ Q_CN = pd.DataFrame(
         & (trade_flows_country["income_id"] == "UMC"),
     ]
     .groupby(["Year"])
-    .agg(
-        sum_qty_in_thousands=pd.NamedAgg(
-            column="qty_in_thousands", aggfunc=sum
-        )
-    )
-)["sum_qty_in_thousands"].tolist()
+    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
+)["sum_qty_thousands"].tolist()
 
 Q_PAP_CN = pd.DataFrame(
     trade_flows_country.loc[
@@ -167,12 +151,8 @@ Q_PAP_CN = pd.DataFrame(
         & (trade_flows_country["income_id"] == "UMC"),
     ]
     .groupby(["Year"])
-    .agg(
-        sum_qty_in_thousands=pd.NamedAgg(
-            column="qty_in_thousands", aggfunc=sum
-        )
-    )
-)["sum_qty_in_thousands"].tolist()
+    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
+)["sum_qty_thousands"].tolist()
 
 Q_TEX_CN = pd.DataFrame(
     trade_flows_country.loc[
@@ -180,12 +160,8 @@ Q_TEX_CN = pd.DataFrame(
         & (trade_flows_country["income_id"] == "UMC"),
     ]
     .groupby(["Year"])
-    .agg(
-        sum_qty_in_thousands=pd.NamedAgg(
-            column="qty_in_thousands", aggfunc=sum
-        )
-    )
-)["sum_qty_in_thousands"].tolist()
+    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
+)["sum_qty_thousands"].tolist()
 
 Q_DE = pd.DataFrame(
     trade_flows_country.loc[
@@ -193,12 +169,8 @@ Q_DE = pd.DataFrame(
         & (trade_flows_country["income_id"] == "HIC"),
     ]
     .groupby(["Year"])
-    .agg(
-        sum_qty_in_thousands=pd.NamedAgg(
-            column="qty_in_thousands", aggfunc=sum
-        )
-    )
-)["sum_qty_in_thousands"].tolist()
+    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
+)["sum_qty_thousands"].tolist()
 
 Q_PAP_DE = pd.DataFrame(
     trade_flows_country.loc[
@@ -206,12 +178,8 @@ Q_PAP_DE = pd.DataFrame(
         & (trade_flows_country["income_id"] == "HIC"),
     ]
     .groupby(["Year"])
-    .agg(
-        sum_qty_in_thousands=pd.NamedAgg(
-            column="qty_in_thousands", aggfunc=sum
-        )
-    )
-)["sum_qty_in_thousands"].tolist()
+    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
+)["sum_qty_thousands"].tolist()
 
 Q_TEX_DE = pd.DataFrame(
     trade_flows_country.loc[
@@ -219,12 +187,8 @@ Q_TEX_DE = pd.DataFrame(
         & (trade_flows_country["income_id"] == "HIC"),
     ]
     .groupby(["Year"])
-    .agg(
-        sum_qty_in_thousands=pd.NamedAgg(
-            column="qty_in_thousands", aggfunc=sum
-        )
-    )
-)["sum_qty_in_thousands"].tolist()
+    .agg(sum_qty_thousands=pd.NamedAgg(column="qty_thousands", aggfunc=sum))
+)["sum_qty_thousands"].tolist()
 
 ## Solution: Three country
 def simulation_threecountry(
@@ -457,7 +421,19 @@ print((results["plastic_change"] > 0).mean())
 
 sns.distplot(results["plastic_change"])
 plt.axvline(results["plastic_change"].median(), 0, 2, color="red")
-plt.xticks([-10*10**6,-5*10**6,0,5*10**6,10*10**6,15*10**6, 20*10**6,25*10**6], ['-10M','-5M','0M','5M','10M','15M','20M','25M'])
+plt.xticks(
+    [
+        -10 * 10 ** 6,
+        -5 * 10 ** 6,
+        0,
+        5 * 10 ** 6,
+        10 * 10 ** 6,
+        15 * 10 ** 6,
+        20 * 10 ** 6,
+        25 * 10 ** 6,
+    ],
+    ["-10M", "-5M", "0M", "5M", "10M", "15M", "20M", "25M"],
+)
 # plt.show()
 plt.savefig("figs/simulations/plastic_increase_amount_3c.png", dpi=400)
 plt.clf()
