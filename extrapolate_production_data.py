@@ -34,9 +34,6 @@ class ProductionData:
 
         #print(self.ghg_index)
 
-        self.trade_flow_data = pd.read_csv("Data/trade_flow_data.csv")
-        print(self.trade_flow_data["Country"].unique())
-
         #print(self.ghg_emissions)
         #print(list(self.ghg_emissions["Source"])
 
@@ -72,9 +69,6 @@ class ProductionData:
 
         kg_per_paper_bag = 0.023
         kg_per_textile_bag = 0.15
-
-        country_proportion = self.trade_flow_data.loc[(self.trade_flow_data["Country"] == "Germany") & (self.trade_flow_data["Year"] == 2018)]
-        print(country_proportion)
 
         kg_per_alternative_bag = 0.701*kg_per_paper_bag + 0.299*kg_per_textile_bag
 
