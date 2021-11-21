@@ -39,17 +39,17 @@ P_TEX_US = 0.1 * 1000
 
 Q_US = trade_flows_total.loc[
     (trade_flows_total["product"] == "plastic bag"),
-    "qty_thousands",
+    "qty_in_thousands",
 ].to_list()
 
 Q_PAP_US = trade_flows_total.loc[
     (trade_flows_total["product"] == "paper bag"),
-    "qty_thousands",
+    "qty_in_thousands",
 ].to_list()
 
 Q_TEX_US = trade_flows_total.loc[
     (trade_flows_total["product"] == "textile bag"),
-    "qty_thousands",
+    "qty_in_thousands",
 ].to_list()
 
 # Set elasticity parameters
@@ -198,6 +198,8 @@ print(results["P_US"].median())
 
 print(results["P1_DOM"].median())
 print(results["P1_EXP"].median())
+print(results["P1_US"].median())
+
 np.average(
     [results["P_PAP_US"], results["P_TEX_US"]],
     weights=[results["Q_PAP_US"], results["Q_TEX_US"]],
@@ -289,195 +291,3 @@ ax = sns.regplot(
 )
 plt.savefig("figs/simulations/plastic_change_R.png", dpi=400)
 plt.clf()
-
-# Three-country model
-## 14 unknowns: P_LIC, P1_LIC, P_MIC, P1_MIC, P_HIC, P1_HIC, P_DOM, P1_DOM, Q_LIC, Q1_LIC, Q_MIC, Q1_MIC, Q_HIC, Q1_HIC
-## Eight parameters: P_US, P1_US, Q_IN, Q1_IN, Q_CN, Q1_CN, Q_DE, Q1_DE, R, C_IN, C1_IN, C_CN, C1_CN, C_DE, C1_DE, e1, e2, eta1, eta2
-
-# Stuff below needs to change to include all countries
-
-Q_IN = trade_flows_country.loc[
-    (
-        (trade_flows_country["Country"] == "India")
-        & (trade_flows_country["product"] == "plastic bag")
-    ),
-    "qty_thousands",
-].to_list()
-
-Q_PAP_IN = trade_flows_country.loc[
-    (
-        (trade_flows_country["Country"] == "India")
-        & (trade_flows_country["product"] == "paper bag")
-    ),
-    "qty_thousands",
-].to_list()
-
-Q_TEX_IN = trade_flows_country.loc[
-    (
-        (trade_flows_country["Country"] == "India")
-        & (trade_flows_country["product"] == "textile bag")
-    ),
-    "qty_thousands",
-].to_list()
-
-Q_CN = trade_flows_country.loc[
-    (
-        (trade_flows_country["Country"] == "China")
-        & (trade_flows_country["product"] == "plastic bag")
-    ),
-    "qty_thousands",
-].to_list()
-
-Q_PAP_CN = trade_flows_country.loc[
-    (
-        (trade_flows_country["Country"] == "China")
-        & (trade_flows_country["product"] == "paper bag")
-    ),
-    "qty_thousands",
-].to_list()
-
-Q_TEX_CN = trade_flows_country.loc[
-    (
-        (trade_flows_country["Country"] == "China")
-        & (trade_flows_country["product"] == "textile bag")
-    ),
-    "qty_thousands",
-].to_list()
-
-Q_DE = trade_flows_country.loc[
-    (
-        (trade_flows_country["Country"] == "Germany")
-        & (trade_flows_country["product"] == "plastic bag")
-    ),
-    "qty_thousands",
-].to_list()
-
-Q_PAP_DE = trade_flows_country.loc[
-    (
-        (trade_flows_country["Country"] == "Germany")
-        & (trade_flows_country["product"] == "paper bag")
-    ),
-    "qty_thousands",
-].to_list()
-
-Q_TEX_DE = trade_flows_country.loc[
-    (
-        (trade_flows_country["Country"] == "Germany")
-        & (trade_flows_country["product"] == "textile bag")
-    ),
-    "qty_thousands",
-].to_list()
-
-## Solution: Three country
-def simulation_threecountry(
-    Q_US,
-    Q_PAP_US,
-    Q_TEX_US,
-    Q_IN,
-    Q_PAP_IN,
-    Q_TEX_IN,
-    Q_CN,
-    Q_PAP_CN,
-    Q_TEX_CN,
-    Q_DE,
-    Q_PAP_DE,
-    Q_TEX_DE,
-    e1,
-    e2,
-    eta1,
-    eta2,
-):
-    Q_US = Q_IN + Q_CN + Q_DE
-    Q1_IN = Q_PAP_IN + Q_TEX_IN
-    Q1_CN = Q_PAP_CN + Q_TEX_CN
-    Q1_DE = Q_PAP_DE + Q_TEX_DE
-    Q1_US = Q1_IN + Q1_CN + Q1_DE
-    P1_US = np.average([P_PAP_US, P_TEX_US], weights=[Q_PAP_US, Q_TEX_US])
-    a = np.array(
-        [
-            [1, 0, 0, 0, 0, 0, 0, 0, -P_US / Q_IN, 0, 0, 0, 0, 0],
-            [0, 1, 0, 0, 0, 0, 0, 0, 0, -P1_US / Q1_IN, 0, 0, 0, 0],
-            [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, -P_US / Q_CN, 0, 0, 0],
-            [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, -P1_US / Q1_CN, 0, 0],
-            [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, -P_US / Q_DE, 0],
-            [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, -P1_US / Q1_DE],
-            [-1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
-            [0, -1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
-            [0, 0, -1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
-            [0, 0, 0, -1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
-            [0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0, 0, 0, 0],
-            [0, 0, 0, 0, 0, -1, 0, 1, 0, 0, 0, 0, 0, 0],
-            [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                e1 * Q_US / P_US,
-                eta1 * Q_US / P1_US,
-                -1,
-                0,
-                -1,
-                0,
-                -1,
-                0,
-            ],
-            [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                eta2 * Q1_US / P_US,
-                e2 * Q1_US / P1_US,
-                0,
-                -1,
-                0,
-                -1,
-                0,
-                -1,
-            ],
-        ]
-    )
-    b = np.array(
-        [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            R * C_IN,
-            R * C1_IN,
-            R * C_CN,
-            R * C1_CN,
-            R * C_DE,
-            R * C1_DE,
-            (e1 + eta1 - 1) * Q_US,
-            (e2 + eta2 - 1) * Q1_US,
-        ]
-    )
-    x = np.linalg.solve(a, b)
-    return np.concatenate((x, np.array([Q_US, Q1_US, P1_US])), axis=0)
-
-
-simulation_threecountry(
-    Q_US=Q_US[0],
-    Q_PAP_US=Q_PAP_US[0],
-    Q_TEX_US=Q_TEX_US[0],
-    Q_IN=Q_IN[0],
-    Q_PAP_IN=Q_PAP_IN[0],
-    Q_TEX_IN=Q_TEX_IN[0],
-    Q_CN=Q_CN[0],
-    Q_PAP_CN=Q_PAP_CN[0],
-    Q_TEX_CN=Q_TEX_CN[0],
-    Q_DE=Q_DE[0],
-    Q_PAP_DE=Q_PAP_DE[0],
-    Q_TEX_DE=Q_TEX_DE[0],
-    e1=-0.4,
-    e2=-0.4,
-    eta1=0.2,
-    eta2=0.2,
-)
