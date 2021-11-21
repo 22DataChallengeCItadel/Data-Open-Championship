@@ -1,9 +1,11 @@
 import numpy as np
+from numpy import random
 import pandas as pd
 from extrapolate_production_data import ProductionData
 from Carbon_tariffs import TariffData
 from sklearn.model_selection import ParameterGrid
 import seaborn as sns
+import matplotlib.pyplot as plt
 
 # Import data
 ## Trade data
@@ -15,7 +17,17 @@ R = TariffData().get_mean_price()
 
 ## Emission data
 C_US = ProductionData().get_gwp(product_type="Plastic").to_list()[0]
+C_world = C_US * ProductionData().get_ghg_index("world")
 C1_US = ProductionData().get_gwp(product_type="Alternative").to_list()[0]
+C1_world = C1_US * ProductionData().get_ghg_index("world")
+
+C_IN = C_US * ProductionData().get_ghg_index("india")
+C_CN = C_US * ProductionData().get_ghg_index("china")
+C_DE = C_US * ProductionData().get_ghg_index("germany")
+
+C1_IN = C1_US * ProductionData().get_ghg_index("india")
+C1_CN = C1_US * ProductionData().get_ghg_index("china")
+C1_DE = C1_US * ProductionData().get_ghg_index("germany")
 
 P_US = 0.01 * 1000
 P_PAP_US = 0.02 * 1000
@@ -42,23 +54,26 @@ Q_TEX_US = trade_flows_total.loc[
 
 # Set elasticity parameters
 
-param_grid = {
-    "Q_US": Q_US,
-    "Q_PAP_US": Q_PAP_US,
-    "Q_TEX_US": Q_TEX_US,
-    "e1": [-0.1, -0.15, -0.2, -0.25, -0.3, -0.35, -0.4],
-    "e2": [-0.1, -0.15, -0.2, -0.25, -0.3, -0.35, -0.4],
-    "eta1": [0.01, 0.02, 0.03, 0.05, 0.08, 0.1, 0.15, 0.2],
-    "eta2": [0.01, 0.02, 0.03, 0.05, 0.08, 0.1, 0.15, 0.2],
-}
+N_ITERATION = 10000
 
-params = pd.DataFrame(list(ParameterGrid(param_grid)))
+params = pd.DataFrame(
+    {
+        "Q_US": random.choice(Q_US, size=N_ITERATION * 10),
+        "Q_PAP_US": random.choice(Q_PAP_US, size=N_ITERATION * 10),
+        "Q_TEX_US": random.choice(Q_TEX_US, size=N_ITERATION * 10),
+        "e1": random.uniform(low=-0.4, high=-0.15, size=N_ITERATION * 10),
+        "e2": random.uniform(low=-0.4, high=-0.15, size=N_ITERATION * 10),
+        "eta1": random.uniform(low=0.075, high=0.2, size=N_ITERATION * 10),
+        "eta2": random.uniform(low=0.075, high=0.2, size=N_ITERATION * 10),
+    }
+)
+
 params = params.loc[
     (-params["e1"] > params["eta1"]) & (-params["e2"] > params["eta2"])
-].sample(10000)
+].sample(N_ITERATION)
 
 ## Solution: baseline
-def simulation_baseline(Q_US, Q_PAP_US, Q_TEX_US, e1, e2, eta1, eta2):
+def simulation_baseline(Q_US, Q_PAP_US, Q_TEX_US, e1, e2, eta1, eta2, R=R):
     Q1_US = Q_PAP_US + Q_TEX_US
     P1_US = np.average([P_PAP_US, P_TEX_US], weights=[Q_PAP_US, Q_TEX_US])
     a = np.array(
@@ -75,8 +90,8 @@ def simulation_baseline(Q_US, Q_PAP_US, Q_TEX_US, e1, e2, eta1, eta2):
         [
             0,
             0,
-            R * C_US,
-            R * C1_US,
+            R * C_world,
+            R * C1_world,
             (e1 + eta1 - 1) * Q_US,
             (e2 + eta2 - 1) * Q1_US,
         ]
@@ -232,6 +247,36 @@ results.loc[
     (results["Q_DOM"] > results["Q_US"])
     & (results["Q1_DOM"] < results["Q1_US"])
 ]
+
+results["plastic_increase"] = results["Q_DOM"] - results["Q_US"]
+results["plastic_proportion_before"] = results["Q_US"] / (
+    results["Q_US"] + results["Q1_US"]
+)
+results["plastic_proportion_after"] = results["Q_DOM"] / (
+    results["Q_DOM"] + results["Q1_DOM"]
+)
+results["plastic_percentage_change"] = (
+    results["plastic_proportion_after"] - results["plastic_proportion_before"]
+) * 100
+
+results["non_plastic_change"] = results["Q1_DOM"] - results["Q1_us"]
+# Visualizations
+print(results["plastic_increase"].median())
+print(results["plastic_increase"].median() / results["Q_US"].mean())
+print((results["plastic_increase"] > 0).mean())
+sns.distplot(results["plastic_increase"])
+plt.axvline(results["plastic_increase"].median(), 0, 2, color="red")
+plt.savefig("figs/simulations/plastic_increase_amount.png", dpi=400)
+
+sns.distplot(results["plastic_percentage_change"])
+plt.savefig("figs/simulations/plastic_percentage_change.png", dpi=400)
+
+
+sns.scatterplot(x=results["e1"], y=results["plastic_increase"], alpha=0.1)
+sns.scatterplot(x=results["e2"], y=results["plastic_increase"], alpha=0.1)
+
+sns.scatterplot(x=results["eta1"], y=results["plastic_increase"], alpha=0.1)
+sns.scatterplot(x=results["eta2"], y=results["plastic_increase"], alpha=0.1)
 
 # Three-country model
 ## 14 unknowns: P_LIC, P1_LIC, P_MIC, P1_MIC, P_HIC, P1_HIC, P_DOM, P1_DOM, Q_LIC, Q1_LIC, Q_MIC, Q1_MIC, Q_HIC, Q1_HIC
@@ -403,13 +448,6 @@ def simulation_threecountry(
     x = np.linalg.solve(a, b)
     return np.concatenate((x, np.array([Q_US, Q1_US, P1_US])), axis=0)
 
-
-C_IN = 1.2 * C_US
-C_CN = 1.1 * C_US
-C_DE = 0.9 * C_US
-C1_IN = 1.2 * C1_US
-C1_CN = 1.1 * C1_US
-C1_DE = 0.9 * C1_US
 
 simulation_threecountry(
     Q_US=Q_US[0],
