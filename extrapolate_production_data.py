@@ -87,8 +87,10 @@ class ProductionData:
 
 if __name__ == "__main__":
     prodData = ProductionData()
-    print(prodData.get_gwp(product_type = "Plastic"))
-    #print(prodData.get_gwp(product_type = "Alternative"))
+    print(prodData.get_gwp(product_type = "Plastic")*1000*prodData.get_ghg_index("germany"))
+    print(prodData.get_gwp(product_type = "Alternative")*1000*prodData.get_ghg_index("germany"))
+
+
 
 
 
